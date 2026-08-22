@@ -9,7 +9,7 @@ router = APIRouter()
 # Centralized instances of the appropriate client for each service
 stt = TranscriptionService(GROQ_CLIENT)
 llm = TranslationService(GROQ_CLIENT)
-tts = SpeechService(GROQ_CLIENT)
+tts = SpeechService()
 
 
 @router.post("/translate")
@@ -29,7 +29,7 @@ async def translate(
         translated_text = llm.execute(transcribed_text, targetLanguage)
         print(f"Translated text: {translated_text}")
 
-        output_filename = tts.execute(translated_text)
+        output_filename = tts.execute(translated_text, targetLanguage)
 
         audio_url = f"http://127.0.0.1:8000/static/{output_filename}"
 

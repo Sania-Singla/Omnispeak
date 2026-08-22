@@ -1,27 +1,18 @@
 import uuid
+from gtts import gTTS
 from config import TEMP_DIR
 
 
 class SpeechService:
-    def __init__(self, client):
-        self.client = client
+    def __init__(self):
+        pass
 
-    #! --------------------------------------------------------------------------------------------------
-    #! currently translates to english
-    #! --------------------------------------------------------------------------------------------------
-
-    def execute(self, text: str) -> str:
-        response = self.client.audio.speech.create(
-            model="canopylabs/orpheus-v1-english",
-            voice="troy",
-            input=text,
-            response_format="wav",
-        )
-
-        output_filename = f"tts_{uuid.uuid4()}.wav"
+    def execute(self, text: str, target_lang: str) -> str:
+        # gTTS(google text-to-speech) natively generates standard MP3 files
+        output_filename = f"tts_{uuid.uuid4()}.mp3"
         output_file_path = TEMP_DIR / output_filename
 
-        # cause we are serving it as a static file so we have to have it stored at our backend server
-        response.write_to_file(output_file_path)
+        tts = gTTS(text=text, lang=target_lang)
+        tts.save(output_file_path) # save the audio at designated path
 
         return output_filename
