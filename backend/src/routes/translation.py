@@ -2,41 +2,41 @@ from fastapi import APIRouter, UploadFile, File, Form, HTTPException
 from services.llm import TranslationService
 from services.stt import TranscriptionService
 from services.tts import SpeechService
-from config import GROQ_CLIENT
 
 router = APIRouter()
 
-# Centralized instances of the appropriate client for each service
-stt = TranscriptionService(GROQ_CLIENT)
-llm = TranslationService(GROQ_CLIENT)
+stt = TranscriptionService()
+llm = TranslationService()
 tts = SpeechService()
 
 
 @router.post("/translate")
 async def translate(
     audio: UploadFile = File(...),
-    sourceLanguage: str = Form(...),
-    targetLanguage: str = Form(...),
+    source_lang: str = Form(...),
+    target_lang: str = Form(...),
 ):
-    print(f"Received audio file: {audio.filename}, target language: {targetLanguage}")
+    print(
+        f"Received audio file: {audio.filename}, source language: {source_lang} and target language: {target_lang}"
+    )
 
     try:
-        audio_bytes = await audio.read()
+        transcription = await stt.execute(audio, source_lang)
+        print(f"Transcription: {transcription}")
 
-        transcribed_text = stt.execute(audio_bytes, audio.filename, sourceLanguage)
-        print(f"Transcribed text: {transcribed_text}")
+        translation = llm.execute(
+            transcription, source_lang, target_lang, provider="nllb"
+        )
+        print(f"Translated text: {translation}")
 
-        translated_text = llm.execute(transcribed_text, targetLanguage)
-        print(f"Translated text: {translated_text}")
-
-        output_filename = tts.execute(translated_text, targetLanguage)
+        output_filename = tts.execute(translation, target_lang)
 
         audio_url = f"http://127.0.0.1:8000/static/{output_filename}"
 
         return {
-            "TranscribedText": transcribed_text,
-            "translatedText": translated_text,
-            "TranslatedAudioUrl": audio_url,
+            "transcription": transcription,
+            "translation": translation,
+            "audio": audio_url,
         }
 
     except Exception as e:

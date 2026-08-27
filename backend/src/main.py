@@ -20,7 +20,7 @@ app.add_middleware(
 
 app.mount("/static", StaticFiles(directory=str(TEMP_DIR)), name="static")
 
-app.include_router(translation_router, prefix="", tags=["translation"])
+app.include_router(translation_router, prefix="")
 
 
 @app.get("/")

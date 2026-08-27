@@ -59,8 +59,8 @@ export function App() {
         try {
             const formData = new FormData();
             formData.append('audio', inputAudio.blob, 'recording.webm');
-            formData.append('targetLanguage', targetLanguage);
-            formData.append('sourceLanguage', sourceLanguage);
+            formData.append('target_lang', targetLanguage);
+            formData.append('source_lang', sourceLanguage);
 
             const res = await fetch(
                 `${import.meta.env.VITE_BACKEND_URL}/translate`,
@@ -78,9 +78,9 @@ export function App() {
             console.log(data);
 
             setOutput({
-                TranscribedText: data.TranscribedText,
-                translatedText: data.translatedText,
-                TranslatedAudioUrl: data.TranslatedAudioUrl,
+                TranscribedText: data.transcription,
+                translatedText: data.translation,
+                TranslatedAudioUrl: data.audio,
             });
         } catch (err) {
             console.error(err);
