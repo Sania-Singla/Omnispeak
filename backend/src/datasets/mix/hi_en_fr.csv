@@ -1,0 +1,51 @@
+id,source_language,target_language,input,expected
+1,en,hi,Hello, my name is Sania.,नमस्ते, मेरा नाम सानिया है।
+2,en,fr,Hello, my name is Sania.,Bonjour, je m'appelle Sania.
+3,en,hi,How are you today?,आज आप कैसे हैं?
+4,en,fr,How are you today?,Comment allez-vous aujourd'hui ?
+5,en,hi,I like learning Python.,मुझे Python सीखना पसंद है।
+6,en,fr,I like learning Python.,J'aime apprendre Python.
+7,en,hi,Where is the nearest train station?,निकटतम रेलवे स्टेशन कहाँ है?
+8,en,fr,Where is the nearest train station?,Où est la gare la plus proche ?
+9,en,hi,Good morning.,सुप्रभात।
+10,en,fr,Good morning.,Bonjour.
+11,en,hi,What is your name?,आपका नाम क्या है?
+12,en,fr,What is your name?,Comment vous appelez-vous ?
+13,en,hi,I live in India.,मैं भारत में रहता हूँ।
+14,en,fr,I live in India.,J'habite en Inde.
+15,en,hi,Can you help me?,क्या आप मेरी मदद कर सकते हैं?
+16,en,fr,Can you help me?,Pouvez-vous m'aider ?
+17,en,hi,Thank you very much.,आपका बहुत धन्यवाद।
+18,en,fr,Thank you very much.,Merci beaucoup.
+19,en,hi,Where is the airport?,हवाई अड्डा कहाँ है?
+20,en,fr,Where is the airport?,Où est l'aéroport ?
+21,en,hi,I am hungry.,मुझे भूख लगी है।
+22,en,fr,I am hungry.,J'ai faim.
+23,en,hi,The food is delicious.,खाना बहुत स्वादिष्ट है।
+24,en,fr,The food is delicious.,La nourriture est délicieuse.
+25,en,hi,Please wait for me.,कृपया मेरा इंतज़ार करें।
+26,en,fr,Please wait for me.,S'il vous plaît, attendez-moi.
+27,en,hi,I am working on a new project.,मैं एक नए प्रोजेक्ट पर काम कर रहा हूँ।
+28,en,fr,I am working on a new project.,Je travaille sur un nouveau projet.
+29,en,hi,The internet connection is slow.,इंटरनेट कनेक्शन धीमा है।
+30,en,fr,The internet connection is slow.,La connexion Internet est lente.
+31,en,hi,Hello, my name is Arjun. I live in Delhi and I am learning Python.,नमस्ते, मेरा नाम अर्जुन है। मैं दिल्ली में रहता हूँ और Python सीख रहा हूँ।
+32,en,fr,Hello, my name is Arjun. I live in Delhi and I am learning Python.,Bonjour, je m'appelle Arjun. J'habite à Delhi et j'apprends Python.
+33,en,hi,I started learning machine learning last month. It is difficult, but I am enjoying it.,मैंने पिछले महीने मशीन लर्निंग सीखना शुरू किया। यह कठिन है, लेकिन मुझे इसे सीखने में मज़ा आ रहा है।
+34,en,fr,I started learning machine learning last month. It is difficult, but I am enjoying it.,J'ai commencé à apprendre l'apprentissage automatique le mois dernier. C'est difficile, mais j'aime ça.
+35,en,hi,The weather is very hot today. I think it might rain in the evening.,आज मौसम बहुत गर्म है। मुझे लगता है कि शाम को बारिश हो सकती है।
+36,en,fr,The weather is very hot today. I think it might rain in the evening.,Il fait très chaud aujourd'hui. Je pense qu'il pourrait pleuvoir dans la soirée.
+37,en,hi,I bought a new laptop yesterday. It is faster than my old computer.,मैंने कल एक नया लैपटॉप खरीदा। यह मेरे पुराने कंप्यूटर से तेज़ है।
+38,en,fr,I bought a new laptop yesterday. It is faster than my old computer.,J'ai acheté un nouvel ordinateur portable hier. Il est plus rapide que mon ancien ordinateur.
+39,en,hi,We need to test the model carefully. A high score on one example does not mean that the model performs well on every sentence.,हमें मॉडल का सावधानीपूर्वक परीक्षण करना होगा। एक उदाहरण में उच्च स्कोर का यह मतलब नहीं है कि मॉडल हर वाक्य पर अच्छा प्रदर्शन करता है।
+40,en,fr,We need to test the model carefully. A high score on one example does not mean that the model performs well on every sentence.,Nous devons tester le modèle attentivement. Un score élevé sur un exemple ne signifie pas que le modèle fonctionne bien sur chaque phrase.
+41,hi,en,मेरा नाम राहुल है। मैं भारत में रहता हूँ।,My name is Rahul. I live in India.
+42,fr,en,Je m'appelle Rahul. J'habite en Inde.,My name is Rahul. I live in India.
+43,hi,en,आज मौसम बहुत गर्म है और मुझे लगता है कि शाम को बारिश हो सकती है।,The weather is very hot today, and I think it might rain in the evening.
+44,fr,en,Il fait très chaud aujourd'hui et je pense qu'il pourrait pleuvoir dans la soirée.,The weather is very hot today, and I think it might rain in the evening.
+45,hi,fr,मेरा नाम राहुल है और मैं दिल्ली में रहता हूँ।,Je m'appelle Rahul et j'habite à Delhi.
+46,fr,hi,Je m'appelle Rahul et j'habite à Delhi.,मेरा नाम राहुल है और मैं दिल्ली में रहता हूँ।
+47,hi,fr,मैं Python सीख रहा हूँ। मुझे प्रोग्रामिंग बहुत पसंद है।,J'apprends Python. J'aime beaucoup la programmation.
+48,fr,hi,Je travaille sur un nouveau projet. Il concerne l'apprentissage automatique.,मैं एक नए प्रोजेक्ट पर काम कर रहा हूँ। यह मशीन लर्निंग से संबंधित है।
+49,hi,fr,मैंने कल अपना असाइनमेंट पूरा किया। आज मैं इसकी समीक्षा करूँगा और कुछ सुधार करूँगा।,J'ai terminé mon devoir hier. Aujourd'hui, je vais le revoir et apporter quelques améliorations.
+50,fr,hi,Notre système de traduction utilise un modèle multilingue. Il peut traduire entre plusieurs langues différentes.,हमारी अनुवाद प्रणाली एक बहुभाषी मॉडल का उपयोग करती है। यह कई अलग-अलग भाषाओं के बीच अनुवाद कर सकती है।

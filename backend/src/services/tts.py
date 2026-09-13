@@ -13,6 +13,6 @@ class SpeechService:
         output_file_path = TEMP_DIR / output_filename
 
         tts = gTTS(text=text, lang=target_lang)
-        tts.save(output_file_path) # save the audio at designated path
+        tts.save(output_file_path)  # save the audio at designated path
 
         return output_filename

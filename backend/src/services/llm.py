@@ -1,55 +1,54 @@
-from config import GROQ_CLIENT, NLLB_LANGUAGE_MAP
-from utils.load_model import load_model
+from models.nllb import NLLBTranslator
+from models.m2m100 import M2M100Translator
+from models.mbart import MBARTTranslator
+from models.marianMT import MarianTranslator
+from models.gemini_flash import GeminiTranslator
 
 
 class TranslationService:
+
     def __init__(self):
-        self.groq_client = GROQ_CLIENT
-        self.tokenizer, self.model = load_model("facebook/nllb-200-distilled-600M")
+        # Lazy-loaded translators
+        self._translators = {}
 
-    def using_groq(self, text: str, source_lang: str, target_lang: str) -> str:
-        translation_response = self.groq_client.chat.completions.create(
-            model="openai/gpt-oss-20b",
-            messages=[
-                # system message to instruct the model what to do & how to behave
-                {
-                    "role": "system",
-                    "content": f"Translate the input text directly from source language with code {source_lang} to target language with code '{target_lang}'. Output ONLY the translation.",
-                },
-                # the user message on which the action need to be performed
-                {"role": "user", "content": text},
-            ],
-            temperature=0.3,  # controls randomness of the output, lower is more deterministic & higher is more random/rephrased
-        )
-        return translation_response.choices[0].message.content
+    def _get_translator(self, provider: str):
 
-    def using_nllb(self, text: str, source_lang: str, target_lang: str) -> str:
-        self.tokenizer.src_lang = NLLB_LANGUAGE_MAP[source_lang]
+        # Already loaded?
+        if provider in self._translators:
+            return self._translators[provider]
 
-        input_tokens = self.tokenizer(text, return_tensors="pt")
+        # Create translator
+        if provider == "nllb":
+            translator = NLLBTranslator()
 
-        translated_tokens = self.model.generate(
-            **input_tokens,
-            forced_bos_token_id=self.tokenizer.convert_tokens_to_ids(
-                NLLB_LANGUAGE_MAP[target_lang]
-            ),
-            max_length=512,
-        )
+        elif provider == "m2m100":
+            translator = M2M100Translator()
 
-        translated_text = self.tokenizer.batch_decode(
-            translated_tokens, skip_special_tokens=True
-        )[0]
+        elif provider == "mbart":
+            translator = MBARTTranslator()
 
-        return translated_text
+        elif provider == "marian":
+            translator = MarianTranslator()
+
+        elif provider == "gemini":
+            translator = GeminiTranslator()
+
+        else:
+            raise ValueError(f"Unsupported translation provider: {provider}")
+
+        # Cache translator
+        self._translators[provider] = translator
+
+        return translator
 
     def execute(
         self, text: str, source_lang: str, target_lang: str, provider: str = "nllb"
     ) -> str:
-        """Executes translation using the specified provider"""
 
-        if provider == "groq":
-            return self.using_groq(text, source_lang, target_lang)
-        elif provider == "nllb":
-            return self.using_nllb(text, source_lang, target_lang)
-        else:
-            raise ValueError("Unsupported translation provider")
+        translator = self._get_translator(provider)
+
+        return translator.translate(
+            text,
+            source_lang,
+            target_lang,
+        )

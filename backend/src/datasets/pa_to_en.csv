@@ -1,0 +1,101 @@
+id,source_language,target_language,input,expected
+1,pa,en,ਮੁੰਡਾ ਖੁਸ਼ ਹੈ।,The boy is happy.
+2,pa,en,ਮੁੰਡਾ ਨੂੰ ਕਿਤਾਬ ਪਸੰਦ ਹੈ।,The boy likes a book.
+3,pa,en,ਮੁੰਡਾ ਖਾਣਾ ਖਰੀਦਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The boy wants to buy food.
+4,pa,en,ਮੁੰਡਾ ਬਜ਼ਾਰ ਜਾ ਰਿਹਾ ਹੈ।,The boy is going to the market.
+5,pa,en,ਮੁੰਡਾ ਕੋਲ ਦੋ ਦੁੱਧ ਹਨ।,The boy has two milk.
+6,pa,en,ਕੁੜੀ ਉਦਾਸ ਹੈ।,The girl is sad.
+7,pa,en,ਕੁੜੀ ਨੂੰ ਕਾਰ ਪਸੰਦ ਹੈ।,The girl likes a car.
+8,pa,en,ਕੁੜੀ ਸੰਗੀਤ ਖਾਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The girl wants to eat music.
+9,pa,en,ਕੁੜੀ ਸਕੂਲ ਜਾ ਰਿਹਾ ਹੈ।,The girl is going to school.
+10,pa,en,ਕੁੜੀ ਕੋਲ ਤਿੰਨ ਫਲ ਹਨ।,The girl has three fruit.
+11,pa,en,ਅਧਿਆਪਕ ਲੰਬਾ ਹੈ।,The teacher is tall.
+12,pa,en,ਅਧਿਆਪਕ ਨੂੰ ਘਰ ਪਸੰਦ ਹੈ।,The teacher likes a house.
+13,pa,en,ਅਧਿਆਪਕ ਫਿਲਮ ਪੜ੍ਹਨਾ ਚਾਹੁੰਦਾ ਹੈ।,The teacher wants to read a movie.
+14,pa,en,ਅਧਿਆਪਕ ਮੰਦਰ ਜਾ ਰਿਹਾ ਹੈ।,The teacher is going to the temple.
+15,pa,en,ਅਧਿਆਪਕ ਕੋਲ ਚਾਰ ਫੁੱਲ ਹਨ।,The teacher has four a flower.
+16,pa,en,ਡਾਕਟਰ ਛੋਟਾ ਹੈ।,The doctor is short.
+17,pa,en,ਡਾਕਟਰ ਨੂੰ ਫੋਨ ਪਸੰਦ ਹੈ।,The doctor likes a phone.
+18,pa,en,ਡਾਕਟਰ ਕੰਪਿਊਟਰ ਦੇਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The doctor wants to watch a computer.
+19,pa,en,ਡਾਕਟਰ ਹਸਪਤਾਲ ਜਾ ਰਿਹਾ ਹੈ।,The doctor is going to the hospital.
+20,pa,en,ਡਾਕਟਰ ਕੋਲ ਪੰਜ ਸਾਈਕਲ ਹਨ।,The doctor has five a bicycle.
+21,pa,en,ਕਿਸਾਨ ਮਜ਼ਬੂਤ ਹੈ।,The farmer is strong.
+22,pa,en,ਕਿਸਾਨ ਨੂੰ ਪਾਣੀ ਪਸੰਦ ਹੈ।,The farmer likes water.
+23,pa,en,ਕਿਸਾਨ ਚਾਹ ਪੀਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The farmer wants to drink tea.
+24,pa,en,ਕਿਸਾਨ ਪਾਰਕ ਜਾ ਰਿਹਾ ਹੈ।,The farmer is going to the park.
+25,pa,en,ਕਿਸਾਨ ਕੋਲ ਛੇ ਕਲਮ ਹਨ।,The farmer has six a pen.
+26,pa,en,ਬੱਚਾ ਕਮਜ਼ੋਰ ਹੈ।,The child is weak.
+27,pa,en,ਬੱਚਾ ਨੂੰ ਖਾਣਾ ਪਸੰਦ ਹੈ।,The child likes food.
+28,pa,en,ਬੱਚਾ ਦੁੱਧ ਸਿੱਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The child wants to learn milk.
+29,pa,en,ਬੱਚਾ ਸਟੇਸ਼ਨ ਜਾ ਰਿਹਾ ਹੈ।,The child is going to the station.
+30,pa,en,ਬੱਚਾ ਕੋਲ ਸੱਤ ਬੈਗ ਹਨ।,The child has seven a bag.
+31,pa,en,ਔਰਤ ਸੋਹਣਾ ਹੈ।,The woman is beautiful.
+32,pa,en,ਔਰਤ ਨੂੰ ਸੰਗੀਤ ਪਸੰਦ ਹੈ।,The woman likes music.
+33,pa,en,ਔਰਤ ਫਲ ਵੇਚਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The woman wants to sell fruit.
+34,pa,en,ਔਰਤ ਪਿੰਡ ਜਾ ਰਿਹਾ ਹੈ।,The woman is going to the village.
+35,pa,en,ਔਰਤ ਕੋਲ ਅੱਠ ਜੁੱਤੇ ਹਨ।,The woman has eight shoes.
+36,pa,en,ਆਦਮੀ ਸਿਆਣਾ ਹੈ।,The man is intelligent.
+37,pa,en,ਆਦਮੀ ਨੂੰ ਫਿਲਮ ਪਸੰਦ ਹੈ।,The man likes a movie.
+38,pa,en,ਆਦਮੀ ਫੁੱਲ ਬਣਾਉਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The man wants to make a flower.
+39,pa,en,ਆਦਮੀ ਸ਼ਹਿਰ ਜਾ ਰਿਹਾ ਹੈ।,The man is going to the city.
+40,pa,en,ਆਦਮੀ ਕੋਲ ਨੌਂ ਕੱਪੜੇ ਹਨ।,The man has nine clothes.
+41,pa,en,ਵਿਦਿਆਰਥੀ ਅਮੀਰ ਹੈ।,The student is rich.
+42,pa,en,ਵਿਦਿਆਰਥੀ ਨੂੰ ਕੰਪਿਊਟਰ ਪਸੰਦ ਹੈ।,The student likes a computer.
+43,pa,en,ਵਿਦਿਆਰਥੀ ਸਾਈਕਲ ਵਰਤਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The student wants to use a bicycle.
+44,pa,en,ਵਿਦਿਆਰਥੀ ਦਫ਼ਤਰ ਜਾ ਰਿਹਾ ਹੈ।,The student is going to the office.
+45,pa,en,ਵਿਦਿਆਰਥੀ ਕੋਲ ਦਸ ਪੈਸਾ ਹਨ।,The student has ten money.
+46,pa,en,ਡਰਾਈਵਰ ਗਰੀਬ ਹੈ।,The driver is poor.
+47,pa,en,ਡਰਾਈਵਰ ਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ।,The driver likes tea.
+48,pa,en,ਡਰਾਈਵਰ ਕਲਮ ਲੱਭਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The driver wants to find a pen.
+49,pa,en,ਡਰਾਈਵਰ ਖੇਤ ਜਾ ਰਿਹਾ ਹੈ।,The driver is going to the field.
+50,pa,en,ਡਰਾਈਵਰ ਕੋਲ ਬਾਰਾਂ ਖੇਡ ਹਨ।,The driver has twelve a game.
+51,pa,en,ਰਸੋਈਆ ਬਹਾਦਰ ਹੈ।,The cook is brave.
+52,pa,en,ਰਸੋਈਆ ਨੂੰ ਦੁੱਧ ਪਸੰਦ ਹੈ।,The cook likes milk.
+53,pa,en,ਰਸੋਈਆ ਬੈਗ ਖਰੀਦਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The cook wants to buy a bag.
+54,pa,en,ਰਸੋਈਆ ਬਜ਼ਾਰ ਜਾ ਰਿਹਾ ਹੈ।,The cook is going to the market.
+55,pa,en,ਰਸੋਈਆ ਕੋਲ ਦੋ ਕਿਤਾਬ ਹਨ।,The cook has two a book.
+56,pa,en,ਗਾਇਕ ਇਮਾਨਦਾਰ ਹੈ।,The singer is honest.
+57,pa,en,ਗਾਇਕ ਨੂੰ ਫਲ ਪਸੰਦ ਹੈ।,The singer likes fruit.
+58,pa,en,ਗਾਇਕ ਜੁੱਤੇ ਖਾਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The singer wants to eat shoes.
+59,pa,en,ਗਾਇਕ ਸਕੂਲ ਜਾ ਰਿਹਾ ਹੈ।,The singer is going to school.
+60,pa,en,ਗਾਇਕ ਕੋਲ ਤਿੰਨ ਕਾਰ ਹਨ।,The singer has three a car.
+61,pa,en,ਲੇਖਕ ਦਿਆਲੂ ਹੈ।,The writer is kind.
+62,pa,en,ਲੇਖਕ ਨੂੰ ਫੁੱਲ ਪਸੰਦ ਹੈ।,The writer likes a flower.
+63,pa,en,ਲੇਖਕ ਕੱਪੜੇ ਪੜ੍ਹਨਾ ਚਾਹੁੰਦਾ ਹੈ।,The writer wants to read clothes.
+64,pa,en,ਲੇਖਕ ਮੰਦਰ ਜਾ ਰਿਹਾ ਹੈ।,The writer is going to the temple.
+65,pa,en,ਲੇਖਕ ਕੋਲ ਚਾਰ ਘਰ ਹਨ।,The writer has four a house.
+66,pa,en,ਚਿੱਤਰਕਾਰ ਮਿਹਨਤੀ ਹੈ।,The painter is hardworking.
+67,pa,en,ਚਿੱਤਰਕਾਰ ਨੂੰ ਸਾਈਕਲ ਪਸੰਦ ਹੈ।,The painter likes a bicycle.
+68,pa,en,ਚਿੱਤਰਕਾਰ ਪੈਸਾ ਦੇਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The painter wants to watch money.
+69,pa,en,ਚਿੱਤਰਕਾਰ ਹਸਪਤਾਲ ਜਾ ਰਿਹਾ ਹੈ।,The painter is going to the hospital.
+70,pa,en,ਚਿੱਤਰਕਾਰ ਕੋਲ ਪੰਜ ਫੋਨ ਹਨ।,The painter has five a phone.
+71,pa,en,ਰਾਜਾ ਮਸ਼ਹੂਰ ਹੈ।,The king is famous.
+72,pa,en,ਰਾਜਾ ਨੂੰ ਕਲਮ ਪਸੰਦ ਹੈ।,The king likes a pen.
+73,pa,en,ਰਾਜਾ ਖੇਡ ਪੀਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The king wants to drink a game.
+74,pa,en,ਰਾਜਾ ਪਾਰਕ ਜਾ ਰਿਹਾ ਹੈ।,The king is going to the park.
+75,pa,en,ਰਾਜਾ ਕੋਲ ਛੇ ਪਾਣੀ ਹਨ।,The king has six water.
+76,pa,en,ਰਾਣੀ ਜਵਾਨ ਹੈ।,The queen is young.
+77,pa,en,ਰਾਣੀ ਨੂੰ ਬੈਗ ਪਸੰਦ ਹੈ।,The queen likes a bag.
+78,pa,en,ਰਾਣੀ ਕਿਤਾਬ ਸਿੱਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The queen wants to learn a book.
+79,pa,en,ਰਾਣੀ ਸਟੇਸ਼ਨ ਜਾ ਰਿਹਾ ਹੈ।,The queen is going to the station.
+80,pa,en,ਰਾਣੀ ਕੋਲ ਸੱਤ ਖਾਣਾ ਹਨ।,The queen has seven food.
+81,pa,en,ਦੋਸਤ ਬੁੱਢਾ ਹੈ।,The friend is old.
+82,pa,en,ਦੋਸਤ ਨੂੰ ਜੁੱਤੇ ਪਸੰਦ ਹੈ।,The friend likes shoes.
+83,pa,en,ਦੋਸਤ ਕਾਰ ਵੇਚਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The friend wants to sell a car.
+84,pa,en,ਦੋਸਤ ਪਿੰਡ ਜਾ ਰਿਹਾ ਹੈ।,The friend is going to the village.
+85,pa,en,ਦੋਸਤ ਕੋਲ ਅੱਠ ਸੰਗੀਤ ਹਨ।,The friend has eight music.
+86,pa,en,ਗੁਆਂਢੀ ਤੰਦਰੁਸਤ ਹੈ।,The neighbor is healthy.
+87,pa,en,ਗੁਆਂਢੀ ਨੂੰ ਕੱਪੜੇ ਪਸੰਦ ਹੈ।,The neighbor likes clothes.
+88,pa,en,ਗੁਆਂਢੀ ਘਰ ਬਣਾਉਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The neighbor wants to make a house.
+89,pa,en,ਗੁਆਂਢੀ ਸ਼ਹਿਰ ਜਾ ਰਿਹਾ ਹੈ।,The neighbor is going to the city.
+90,pa,en,ਗੁਆਂਢੀ ਕੋਲ ਨੌਂ ਫਿਲਮ ਹਨ।,The neighbor has nine a movie.
+91,pa,en,ਮਜ਼ਦੂਰ ਰੁੱਝਿਆ ਹੈ।,The worker is busy.
+92,pa,en,ਮਜ਼ਦੂਰ ਨੂੰ ਪੈਸਾ ਪਸੰਦ ਹੈ।,The worker likes money.
+93,pa,en,ਮਜ਼ਦੂਰ ਫੋਨ ਵਰਤਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The worker wants to use a phone.
+94,pa,en,ਮਜ਼ਦੂਰ ਦਫ਼ਤਰ ਜਾ ਰਿਹਾ ਹੈ।,The worker is going to the office.
+95,pa,en,ਮਜ਼ਦੂਰ ਕੋਲ ਦਸ ਕੰਪਿਊਟਰ ਹਨ।,The worker has ten a computer.
+96,pa,en,ਸਿਪਾਹੀ ਸ਼ਾਂਤ ਹੈ।,The soldier is calm.
+97,pa,en,ਸਿਪਾਹੀ ਨੂੰ ਖੇਡ ਪਸੰਦ ਹੈ।,The soldier likes a game.
+98,pa,en,ਸਿਪਾਹੀ ਪਾਣੀ ਲੱਭਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The soldier wants to find water.
+99,pa,en,ਸਿਪਾਹੀ ਖੇਤ ਜਾ ਰਿਹਾ ਹੈ।,The soldier is going to the field.
+100,pa,en,ਸਿਪਾਹੀ ਕੋਲ ਬਾਰਾਂ ਚਾਹ ਹਨ।,The soldier has twelve tea.
