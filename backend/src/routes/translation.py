@@ -5,6 +5,8 @@ from services.stt import TranscriptionService
 from services.tts import SpeechService
 from services.model_registry import ModelRegistry
 
+from evaluation import evaluate
+
 router = APIRouter()
 
 stt = TranscriptionService()
@@ -14,9 +16,9 @@ tts = SpeechService()
 
 @router.post("/translate")
 async def translate(
-    source_lang: str,
-    target_lang: str,
-    provider: str,
+    source_lang: str = Form(),
+    target_lang: str = Form(),
+    provider: str = Form(),
     audio: UploadFile = File(...),
 ):
     print(
@@ -56,24 +58,28 @@ async def translate(
 
         print(f"Translation: {translation}")
 
-        # 3. Text-to-speech
+        # 3. evaluation
+        scores = evaluate([translation], [[transcription]], source_lang)
+
+        # 4. Text-to-speech
         output_filename = tts.execute(
             translation,
             target_lang,
         )
 
-        # 4. Audio URL
+        # 5. Audio URL
         audio_url = f"http://127.0.0.1:8000/static/{output_filename}"
 
         return {
             "transcription": transcription,
             "translation": translation,
             "audio": audio_url,
+            "scores": scores,
             "provider": provider,
         }
 
     except Exception as e:
-        print(f"Translation pipeline error: {e}")
+        print(f"error: {e}")
 
         raise HTTPException(
             status_code=500,

@@ -38,3 +38,8 @@ def translate_file(file_path: str, output_path: str, translate_func):
     )
 
     print(f"Results saved to: {output_path}")
+
+
+def translate_files(file_paths: list[str], output_paths: list[str], translate_func):
+    for file_path, output_path in zip(file_paths, output_paths):
+        translate_file(file_path, output_path, translate_func)

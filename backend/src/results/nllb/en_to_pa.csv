@@ -1,0 +1,101 @@
+id,source_language,target_language,input,expected,predicted
+1,en,pa,The boy is happy.,ਮੁੰਡਾ ਖੁਸ਼ ਹੈ।,ਬੱਚਾ ਖੁਸ਼ ਹੈ।
+2,en,pa,The boy likes a book.,ਮੁੰਡਾ ਨੂੰ ਕਿਤਾਬ ਪਸੰਦ ਹੈ।,ਮੁੰਡੇ ਨੂੰ ਕਿਤਾਬ ਪਸੰਦ ਹੈ।
+3,en,pa,The boy wants to buy food.,ਮੁੰਡਾ ਖਾਣਾ ਖਰੀਦਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਮੁੰਡਾ ਭੋਜਨ ਖਰੀਦਣਾ ਚਾਹੁੰਦਾ ਹੈ।
+4,en,pa,The boy is going to the market.,ਮੁੰਡਾ ਬਜ਼ਾਰ ਜਾ ਰਿਹਾ ਹੈ।,ਬੱਚਾ ਬਾਜ਼ਾਰ ਜਾ ਰਿਹਾ ਹੈ।
+5,en,pa,The boy has two milk.,ਮੁੰਡਾ ਕੋਲ ਦੋ ਦੁੱਧ ਹਨ।,ਮੁੰਡੇ ਕੋਲ ਦੋ ਦੁੱਧ ਹਨ।
+6,en,pa,The girl is sad.,ਕੁੜੀ ਉਦਾਸ ਹੈ।,ਕੁੜੀ ਉਦਾਸ ਹੈ।
+7,en,pa,The girl likes a car.,ਕੁੜੀ ਨੂੰ ਕਾਰ ਪਸੰਦ ਹੈ।,ਲੜਕੀ ਨੂੰ ਕਾਰ ਪਸੰਦ ਹੈ.
+8,en,pa,The girl wants to eat music.,ਕੁੜੀ ਸੰਗੀਤ ਖਾਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਕੁੜੀ ਸੰਗੀਤ ਖਾਣਾ ਚਾਹੁੰਦੀ ਹੈ।
+9,en,pa,The girl is going to school.,ਕੁੜੀ ਸਕੂਲ ਜਾ ਰਿਹਾ ਹੈ।,ਲੜਕੀ ਸਕੂਲ ਜਾ ਰਹੀ ਹੈ।
+10,en,pa,The girl has three fruit.,ਕੁੜੀ ਕੋਲ ਤਿੰਨ ਫਲ ਹਨ।,ਲੜਕੀ ਕੋਲ ਤਿੰਨ ਫਲ ਹਨ।
+11,en,pa,The teacher is tall.,ਅਧਿਆਪਕ ਲੰਬਾ ਹੈ।,ਅਧਿਆਪਕ ਲੰਬਾ ਹੈ।
+12,en,pa,The teacher likes a house.,ਅਧਿਆਪਕ ਨੂੰ ਘਰ ਪਸੰਦ ਹੈ।,ਅਧਿਆਪਕ ਨੂੰ ਘਰ ਪਸੰਦ ਹੈ।
+13,en,pa,The teacher wants to read a movie.,ਅਧਿਆਪਕ ਫਿਲਮ ਪੜ੍ਹਨਾ ਚਾਹੁੰਦਾ ਹੈ।,ਅਧਿਆਪਕ ਇੱਕ ਫਿਲਮ ਪੜ੍ਹਨਾ ਚਾਹੁੰਦਾ ਹੈ।
+14,en,pa,The teacher is going to the temple.,ਅਧਿਆਪਕ ਮੰਦਰ ਜਾ ਰਿਹਾ ਹੈ।,ਅਧਿਆਪਕ ਮੰਦਰ ਜਾ ਰਿਹਾ ਹੈ।
+15,en,pa,The teacher has four a flower.,ਅਧਿਆਪਕ ਕੋਲ ਚਾਰ ਫੁੱਲ ਹਨ।,ਅਧਿਆਪਕ ਕੋਲ ਚਾਰ ਫੁੱਲ ਹਨ।
+16,en,pa,The doctor is short.,ਡਾਕਟਰ ਛੋਟਾ ਹੈ।,ਡਾਕਟਰ ਛੋਟਾ ਹੈ।
+17,en,pa,The doctor likes a phone.,ਡਾਕਟਰ ਨੂੰ ਫੋਨ ਪਸੰਦ ਹੈ।,ਡਾਕਟਰ ਨੂੰ ਫੋਨ ਪਸੰਦ ਹੈ।
+18,en,pa,The doctor wants to watch a computer.,ਡਾਕਟਰ ਕੰਪਿਊਟਰ ਦੇਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਡਾਕਟਰ ਕੰਪਿਊਟਰ ਦੇਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।
+19,en,pa,The doctor is going to the hospital.,ਡਾਕਟਰ ਹਸਪਤਾਲ ਜਾ ਰਿਹਾ ਹੈ।,ਡਾਕਟਰ ਹਸਪਤਾਲ ਜਾ ਰਿਹਾ ਹੈ।
+20,en,pa,The doctor has five a bicycle.,ਡਾਕਟਰ ਕੋਲ ਪੰਜ ਸਾਈਕਲ ਹਨ।,ਡਾਕਟਰ ਕੋਲ ਪੰਜ ਸਾਈਕਲ ਹਨ।
+21,en,pa,The farmer is strong.,ਕਿਸਾਨ ਮਜ਼ਬੂਤ ਹੈ।,ਕਿਸਾਨ ਮਜ਼ਬੂਤ ਹੈ।
+22,en,pa,The farmer likes water.,ਕਿਸਾਨ ਨੂੰ ਪਾਣੀ ਪਸੰਦ ਹੈ।,ਕਿਸਾਨ ਪਾਣੀ ਪਸੰਦ ਕਰਦਾ ਹੈ.
+23,en,pa,The farmer wants to drink tea.,ਕਿਸਾਨ ਚਾਹ ਪੀਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਕਿਸਾਨ ਚਾਹ ਪੀਣਾ ਚਾਹੁੰਦਾ ਹੈ।
+24,en,pa,The farmer is going to the park.,ਕਿਸਾਨ ਪਾਰਕ ਜਾ ਰਿਹਾ ਹੈ।,ਕਿਸਾਨ ਪਾਰਕ ਜਾ ਰਿਹਾ ਹੈ.
+25,en,pa,The farmer has six a pen.,ਕਿਸਾਨ ਕੋਲ ਛੇ ਕਲਮ ਹਨ।,ਕਿਸਾਨ ਕੋਲ ਇੱਕ ਕਲਮ ਦੇ ਛੇ ਹਨ।
+26,en,pa,The child is weak.,ਬੱਚਾ ਕਮਜ਼ੋਰ ਹੈ।,ਬੱਚਾ ਕਮਜ਼ੋਰ ਹੈ।
+27,en,pa,The child likes food.,ਬੱਚਾ ਨੂੰ ਖਾਣਾ ਪਸੰਦ ਹੈ।,ਬੱਚੇ ਨੂੰ ਖਾਣਾ ਪਸੰਦ ਹੈ।
+28,en,pa,The child wants to learn milk.,ਬੱਚਾ ਦੁੱਧ ਸਿੱਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਬੱਚਾ ਦੁੱਧ ਸਿੱਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।
+29,en,pa,The child is going to the station.,ਬੱਚਾ ਸਟੇਸ਼ਨ ਜਾ ਰਿਹਾ ਹੈ।,ਬੱਚਾ ਸਟੇਸ਼ਨ ਜਾ ਰਿਹਾ ਹੈ।
+30,en,pa,The child has seven a bag.,ਬੱਚਾ ਕੋਲ ਸੱਤ ਬੈਗ ਹਨ।,ਬੱਚੇ ਕੋਲ ਸੱਤ ਬੈਗ ਹਨ।
+31,en,pa,The woman is beautiful.,ਔਰਤ ਸੋਹਣਾ ਹੈ।,ਉਹ ਔਰਤ ਸੁੰਦਰ ਹੈ।
+32,en,pa,The woman likes music.,ਔਰਤ ਨੂੰ ਸੰਗੀਤ ਪਸੰਦ ਹੈ।,ਔਰਤ ਨੂੰ ਸੰਗੀਤ ਪਸੰਦ ਹੈ।
+33,en,pa,The woman wants to sell fruit.,ਔਰਤ ਫਲ ਵੇਚਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਔਰਤ ਫਲ ਵੇਚਣਾ ਚਾਹੁੰਦੀ ਹੈ।
+34,en,pa,The woman is going to the village.,ਔਰਤ ਪਿੰਡ ਜਾ ਰਿਹਾ ਹੈ।,ਔਰਤ ਪਿੰਡ ਜਾ ਰਹੀ ਹੈ।
+35,en,pa,The woman has eight shoes.,ਔਰਤ ਕੋਲ ਅੱਠ ਜੁੱਤੇ ਹਨ।,ਉਸ ਔਰਤ ਕੋਲ ਅੱਠ ਜੁੱਤੇ ਹਨ।
+36,en,pa,The man is intelligent.,ਆਦਮੀ ਸਿਆਣਾ ਹੈ।,ਉਹ ਬੁੱਧੀਮਾਨ ਹੈ।
+37,en,pa,The man likes a movie.,ਆਦਮੀ ਨੂੰ ਫਿਲਮ ਪਸੰਦ ਹੈ।,ਉਹ ਆਦਮੀ ਫਿਲਮ ਪਸੰਦ ਕਰਦਾ ਹੈ.
+38,en,pa,The man wants to make a flower.,ਆਦਮੀ ਫੁੱਲ ਬਣਾਉਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਆਦਮੀ ਇੱਕ ਫੁੱਲ ਬਣਾਉਣਾ ਚਾਹੁੰਦਾ ਹੈ.
+39,en,pa,The man is going to the city.,ਆਦਮੀ ਸ਼ਹਿਰ ਜਾ ਰਿਹਾ ਹੈ।,ਆਦਮੀ ਸ਼ਹਿਰ ਜਾ ਰਿਹਾ ਹੈ.
+40,en,pa,The man has nine clothes.,ਆਦਮੀ ਕੋਲ ਨੌਂ ਕੱਪੜੇ ਹਨ।,ਉਸ ਆਦਮੀ ਦੇ ਨੌਂ ਕੱਪੜੇ ਹਨ।
+41,en,pa,The student is rich.,ਵਿਦਿਆਰਥੀ ਅਮੀਰ ਹੈ।,ਵਿਦਿਆਰਥੀ ਅਮੀਰ ਹੈ।
+42,en,pa,The student likes a computer.,ਵਿਦਿਆਰਥੀ ਨੂੰ ਕੰਪਿਊਟਰ ਪਸੰਦ ਹੈ।,ਵਿਦਿਆਰਥੀ ਕੰਪਿਊਟਰ ਪਸੰਦ ਕਰਦਾ ਹੈ।
+43,en,pa,The student wants to use a bicycle.,ਵਿਦਿਆਰਥੀ ਸਾਈਕਲ ਵਰਤਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਵਿਦਿਆਰਥੀ ਸਾਈਕਲ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਚਾਹੁੰਦਾ ਹੈ।
+44,en,pa,The student is going to the office.,ਵਿਦਿਆਰਥੀ ਦਫ਼ਤਰ ਜਾ ਰਿਹਾ ਹੈ।,ਵਿਦਿਆਰਥੀ ਦਫ਼ਤਰ ਜਾ ਰਿਹਾ ਹੈ.
+45,en,pa,The student has ten money.,ਵਿਦਿਆਰਥੀ ਕੋਲ ਦਸ ਪੈਸਾ ਹਨ।,ਵਿਦਿਆਰਥੀ ਕੋਲ ਦਸ ਪੈਸੇ ਹਨ।
+46,en,pa,The driver is poor.,ਡਰਾਈਵਰ ਗਰੀਬ ਹੈ।,ਡਰਾਈਵਰ ਗਰੀਬ ਹੈ।
+47,en,pa,The driver likes tea.,ਡਰਾਈਵਰ ਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ।,ਡਰਾਈਵਰ ਚਾਹ ਪਸੰਦ ਕਰਦਾ ਹੈ.
+48,en,pa,The driver wants to find a pen.,ਡਰਾਈਵਰ ਕਲਮ ਲੱਭਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਡਰਾਈਵਰ ਇੱਕ ਕਲਮ ਲੱਭਣਾ ਚਾਹੁੰਦਾ ਹੈ.
+49,en,pa,The driver is going to the field.,ਡਰਾਈਵਰ ਖੇਤ ਜਾ ਰਿਹਾ ਹੈ।,ਡਰਾਈਵਰ ਮੈਦਾਨ ਵੱਲ ਜਾ ਰਿਹਾ ਹੈ।
+50,en,pa,The driver has twelve a game.,ਡਰਾਈਵਰ ਕੋਲ ਬਾਰਾਂ ਖੇਡ ਹਨ।,ਡਰਾਈਵਰ ਕੋਲ 12 ਗੇਮ ਹੈ।
+51,en,pa,The cook is brave.,ਰਸੋਈਆ ਬਹਾਦਰ ਹੈ।,ਸ਼ੈੱਫ ਬਹਾਦਰ ਹੈ।
+52,en,pa,The cook likes milk.,ਰਸੋਈਆ ਨੂੰ ਦੁੱਧ ਪਸੰਦ ਹੈ।,ਕੁੱਕਰ ਨੂੰ ਦੁੱਧ ਪਸੰਦ ਹੈ.
+53,en,pa,The cook wants to buy a bag.,ਰਸੋਈਆ ਬੈਗ ਖਰੀਦਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਰਸੋਈ ਇੱਕ ਬੈਗ ਖਰੀਦਣਾ ਚਾਹੁੰਦਾ ਹੈ.
+54,en,pa,The cook is going to the market.,ਰਸੋਈਆ ਬਜ਼ਾਰ ਜਾ ਰਿਹਾ ਹੈ।,ਸ਼ੈੱਫ ਬਾਜ਼ਾਰ ਜਾ ਰਿਹਾ ਹੈ.
+55,en,pa,The cook has two a book.,ਰਸੋਈਆ ਕੋਲ ਦੋ ਕਿਤਾਬ ਹਨ।,ਰਸੋਈ ਕੋਲ ਦੋ ਕਿਤਾਬਾਂ ਹਨ।
+56,en,pa,The singer is honest.,ਗਾਇਕ ਇਮਾਨਦਾਰ ਹੈ।,ਗਾਇਕ ਇਮਾਨਦਾਰ ਹੈ।
+57,en,pa,The singer likes fruit.,ਗਾਇਕ ਨੂੰ ਫਲ ਪਸੰਦ ਹੈ।,ਗਾਇਕ ਫਲ ਪਸੰਦ ਕਰਦਾ ਹੈ.
+58,en,pa,The singer wants to eat shoes.,ਗਾਇਕ ਜੁੱਤੇ ਖਾਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਗਾਇਕ ਜੁੱਤੇ ਖਾਣਾ ਚਾਹੁੰਦਾ ਹੈ।
+59,en,pa,The singer is going to school.,ਗਾਇਕ ਸਕੂਲ ਜਾ ਰਿਹਾ ਹੈ।,ਗਾਇਕ ਸਕੂਲ ਜਾ ਰਿਹਾ ਹੈ।
+60,en,pa,The singer has three a car.,ਗਾਇਕ ਕੋਲ ਤਿੰਨ ਕਾਰ ਹਨ।,ਗਾਇਕ ਕੋਲ ਕਾਰ 'ਤੇ ਤਿੰਨ ਹਨ।
+61,en,pa,The writer is kind.,ਲੇਖਕ ਦਿਆਲੂ ਹੈ।,ਲੇਖਕ ਦਿਆਲੂ ਹੈ।
+62,en,pa,The writer likes a flower.,ਲੇਖਕ ਨੂੰ ਫੁੱਲ ਪਸੰਦ ਹੈ।,ਲੇਖਕ ਨੂੰ ਫੁੱਲ ਪਸੰਦ ਹਨ।
+63,en,pa,The writer wants to read clothes.,ਲੇਖਕ ਕੱਪੜੇ ਪੜ੍ਹਨਾ ਚਾਹੁੰਦਾ ਹੈ।,ਲੇਖਕ ਕੱਪੜੇ ਪੜ੍ਹਨਾ ਚਾਹੁੰਦਾ ਹੈ।
+64,en,pa,The writer is going to the temple.,ਲੇਖਕ ਮੰਦਰ ਜਾ ਰਿਹਾ ਹੈ।,ਲੇਖਕ ਮੰਦਰ ਜਾ ਰਿਹਾ ਹੈ।
+65,en,pa,The writer has four a house.,ਲੇਖਕ ਕੋਲ ਚਾਰ ਘਰ ਹਨ।,ਲੇਖਕ ਕੋਲ ਚਾਰ ਘਰ ਹਨ।
+66,en,pa,The painter is hardworking.,ਚਿੱਤਰਕਾਰ ਮਿਹਨਤੀ ਹੈ।,ਪੇਂਟਰ ਮਿਹਨਤੀ ਹੈ।
+67,en,pa,The painter likes a bicycle.,ਚਿੱਤਰਕਾਰ ਨੂੰ ਸਾਈਕਲ ਪਸੰਦ ਹੈ।,ਪੇਂਟਰ ਨੂੰ ਸਾਈਕਲ ਪਸੰਦ ਹੈ।
+68,en,pa,The painter wants to watch money.,ਚਿੱਤਰਕਾਰ ਪੈਸਾ ਦੇਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਪੇਂਟਰ ਪੈਸੇ ਨੂੰ ਦੇਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।
+69,en,pa,The painter is going to the hospital.,ਚਿੱਤਰਕਾਰ ਹਸਪਤਾਲ ਜਾ ਰਿਹਾ ਹੈ।,ਪੇਂਟਰ ਹਸਪਤਾਲ ਜਾ ਰਿਹਾ ਹੈ।
+70,en,pa,The painter has five a phone.,ਚਿੱਤਰਕਾਰ ਕੋਲ ਪੰਜ ਫੋਨ ਹਨ।,ਪੇਂਟਰ ਕੋਲ ਪੰਜ ਫੋਨ ਹਨ।
+71,en,pa,The king is famous.,ਰਾਜਾ ਮਸ਼ਹੂਰ ਹੈ।,ਰਾਜਾ ਮਸ਼ਹੂਰ ਹੈ।
+72,en,pa,The king likes a pen.,ਰਾਜਾ ਨੂੰ ਕਲਮ ਪਸੰਦ ਹੈ।,ਰਾਜਾ ਨੂੰ ਕਲਮ ਪਸੰਦ ਹੈ।
+73,en,pa,The king wants to drink a game.,ਰਾਜਾ ਖੇਡ ਪੀਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਰਾਜਾ ਇੱਕ ਖੇਡ ਪੀਣਾ ਚਾਹੁੰਦਾ ਹੈ.
+74,en,pa,The king is going to the park.,ਰਾਜਾ ਪਾਰਕ ਜਾ ਰਿਹਾ ਹੈ।,ਰਾਜਾ ਪਾਰਕ ਜਾ ਰਿਹਾ ਹੈ.
+75,en,pa,The king has six water.,ਰਾਜਾ ਕੋਲ ਛੇ ਪਾਣੀ ਹਨ।,ਰਾਜੇ ਕੋਲ ਛੇ ਪਾਣੀ ਹਨ।
+76,en,pa,The queen is young.,ਰਾਣੀ ਜਵਾਨ ਹੈ।,ਰਾਣੀ ਜਵਾਨ ਹੈ।
+77,en,pa,The queen likes a bag.,ਰਾਣੀ ਨੂੰ ਬੈਗ ਪਸੰਦ ਹੈ।,ਰਾਣੀ ਨੂੰ ਬੈਗ ਪਸੰਦ ਹੈ.
+78,en,pa,The queen wants to learn a book.,ਰਾਣੀ ਕਿਤਾਬ ਸਿੱਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਰਾਣੀ ਇੱਕ ਕਿਤਾਬ ਸਿੱਖਣਾ ਚਾਹੁੰਦੀ ਹੈ।
+79,en,pa,The queen is going to the station.,ਰਾਣੀ ਸਟੇਸ਼ਨ ਜਾ ਰਿਹਾ ਹੈ।,ਰਾਣੀ ਸਟੇਸ਼ਨ ਜਾ ਰਹੀ ਹੈ.
+80,en,pa,The queen has seven food.,ਰਾਣੀ ਕੋਲ ਸੱਤ ਖਾਣਾ ਹਨ।,ਰਾਣੀ ਕੋਲ ਸੱਤ ਭੋਜਨ ਹਨ।
+81,en,pa,The friend is old.,ਦੋਸਤ ਬੁੱਢਾ ਹੈ।,ਦੋਸਤ ਪੁਰਾਣਾ ਹੈ।
+82,en,pa,The friend likes shoes.,ਦੋਸਤ ਨੂੰ ਜੁੱਤੇ ਪਸੰਦ ਹੈ।,ਦੋਸਤ ਨੂੰ ਜੁੱਤੇ ਪਸੰਦ ਹਨ.
+83,en,pa,The friend wants to sell a car.,ਦੋਸਤ ਕਾਰ ਵੇਚਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਦੋਸਤ ਕਾਰ ਵੇਚਣਾ ਚਾਹੁੰਦਾ ਹੈ।
+84,en,pa,The friend is going to the village.,ਦੋਸਤ ਪਿੰਡ ਜਾ ਰਿਹਾ ਹੈ।,ਦੋਸਤ ਪਿੰਡ ਜਾ ਰਿਹਾ ਹੈ।
+85,en,pa,The friend has eight music.,ਦੋਸਤ ਕੋਲ ਅੱਠ ਸੰਗੀਤ ਹਨ।,ਦੋਸਤ ਕੋਲ ਅੱਠ ਸੰਗੀਤ ਹਨ।
+86,en,pa,The neighbor is healthy.,ਗੁਆਂਢੀ ਤੰਦਰੁਸਤ ਹੈ।,ਗੁਆਂਢੀ ਸਿਹਤਮੰਦ ਹੈ।
+87,en,pa,The neighbor likes clothes.,ਗੁਆਂਢੀ ਨੂੰ ਕੱਪੜੇ ਪਸੰਦ ਹੈ।,ਗੁਆਂਢੀ ਕੱਪੜੇ ਪਸੰਦ ਕਰਦਾ ਹੈ।
+88,en,pa,The neighbor wants to make a house.,ਗੁਆਂਢੀ ਘਰ ਬਣਾਉਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਗੁਆਂਢੀ ਘਰ ਬਣਾਉਣਾ ਚਾਹੁੰਦਾ ਹੈ।
+89,en,pa,The neighbor is going to the city.,ਗੁਆਂਢੀ ਸ਼ਹਿਰ ਜਾ ਰਿਹਾ ਹੈ।,ਗੁਆਂਢੀ ਸ਼ਹਿਰ ਜਾ ਰਿਹਾ ਹੈ।
+90,en,pa,The neighbor has nine a movie.,ਗੁਆਂਢੀ ਕੋਲ ਨੌਂ ਫਿਲਮ ਹਨ।,ਗੁਆਂਢੀ ਕੋਲ ਨੌਂ ਫ਼ਿਲਮਾਂ ਹਨ।
+91,en,pa,The worker is busy.,ਮਜ਼ਦੂਰ ਰੁੱਝਿਆ ਹੈ।,ਵਰਕਰ ਵਿਅਸਤ ਹੈ।
+92,en,pa,The worker likes money.,ਮਜ਼ਦੂਰ ਨੂੰ ਪੈਸਾ ਪਸੰਦ ਹੈ।,ਮਜ਼ਦੂਰ ਨੂੰ ਪੈਸਾ ਪਸੰਦ ਹੈ।
+93,en,pa,The worker wants to use a phone.,ਮਜ਼ਦੂਰ ਫੋਨ ਵਰਤਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਵਰਕਰ ਫੋਨ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਚਾਹੁੰਦਾ ਹੈ।
+94,en,pa,The worker is going to the office.,ਮਜ਼ਦੂਰ ਦਫ਼ਤਰ ਜਾ ਰਿਹਾ ਹੈ।,ਵਰਕਰ ਦਫ਼ਤਰ ਜਾ ਰਿਹਾ ਹੈ।
+95,en,pa,The worker has ten a computer.,ਮਜ਼ਦੂਰ ਕੋਲ ਦਸ ਕੰਪਿਊਟਰ ਹਨ।,ਕਰਮਚਾਰੀ ਕੋਲ ਦਸ ਕੰਪਿਊਟਰ ਹਨ।
+96,en,pa,The soldier is calm.,ਸਿਪਾਹੀ ਸ਼ਾਂਤ ਹੈ।,ਸਿਪਾਹੀ ਸ਼ਾਂਤ ਹੈ।
+97,en,pa,The soldier likes a game.,ਸਿਪਾਹੀ ਨੂੰ ਖੇਡ ਪਸੰਦ ਹੈ।,ਸਿਪਾਹੀ ਨੂੰ ਖੇਡਣਾ ਪਸੰਦ ਹੈ।
+98,en,pa,The soldier wants to find water.,ਸਿਪਾਹੀ ਪਾਣੀ ਲੱਭਣਾ ਚਾਹੁੰਦਾ ਹੈ।,ਸਿਪਾਹੀ ਪਾਣੀ ਲੱਭਣਾ ਚਾਹੁੰਦਾ ਹੈ।
+99,en,pa,The soldier is going to the field.,ਸਿਪਾਹੀ ਖੇਤ ਜਾ ਰਿਹਾ ਹੈ।,ਸਿਪਾਹੀ ਖੇਤ ਵੱਲ ਜਾ ਰਿਹਾ ਹੈ।
+100,en,pa,The soldier has twelve tea.,ਸਿਪਾਹੀ ਕੋਲ ਬਾਰਾਂ ਚਾਹ ਹਨ।,ਸਿਪਾਹੀ ਕੋਲ ਬਾਰਾਂ ਚਾਹਾਂ ਹਨ।

@@ -1,0 +1,101 @@
+id,source_language,target_language,input,expected,predicted
+1,pa,en,ਮੁੰਡਾ ਖੁਸ਼ ਹੈ।,The boy is happy.,I am happy.
+2,pa,en,ਮੁੰਡਾ ਨੂੰ ਕਿਤਾਬ ਪਸੰਦ ਹੈ।,The boy likes a book.,I love the book.
+3,pa,en,ਮੁੰਡਾ ਖਾਣਾ ਖਰੀਦਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The boy wants to buy food.,I want to buy meals.
+4,pa,en,ਮੁੰਡਾ ਬਜ਼ਾਰ ਜਾ ਰਿਹਾ ਹੈ।,The boy is going to the market.,The market is going.
+5,pa,en,ਮੁੰਡਾ ਕੋਲ ਦੋ ਦੁੱਧ ਹਨ।,The boy has two milk.,The mountain has two dots.
+6,pa,en,ਕੁੜੀ ਉਦਾਸ ਹੈ।,The girl is sad.,It is a lot of time.
+7,pa,en,ਕੁੜੀ ਨੂੰ ਕਾਰ ਪਸੰਦ ਹੈ।,The girl likes a car.,I love the car.
+8,pa,en,ਕੁੜੀ ਸੰਗੀਤ ਖਾਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The girl wants to eat music.,The dog wants to eat music.
+9,pa,en,ਕੁੜੀ ਸਕੂਲ ਜਾ ਰਿਹਾ ਹੈ।,The girl is going to school.,The school is going.
+10,pa,en,ਕੁੜੀ ਕੋਲ ਤਿੰਨ ਫਲ ਹਨ।,The girl has three fruit.,The dogs have three flows.
+11,pa,en,ਅਧਿਆਪਕ ਲੰਬਾ ਹੈ।,The teacher is tall.,Basic is long.
+12,pa,en,ਅਧਿਆਪਕ ਨੂੰ ਘਰ ਪਸੰਦ ਹੈ।,The teacher likes a house.,Basic is home favourite.
+13,pa,en,ਅਧਿਆਪਕ ਫਿਲਮ ਪੜ੍ਹਨਾ ਚਾਹੁੰਦਾ ਹੈ।,The teacher wants to read a movie.,Basic film wants to read.
+14,pa,en,ਅਧਿਆਪਕ ਮੰਦਰ ਜਾ ਰਿਹਾ ਹੈ।,The teacher is going to the temple.,Basic land is going.
+15,pa,en,ਅਧਿਆਪਕ ਕੋਲ ਚਾਰ ਫੁੱਲ ਹਨ।,The teacher has four a flower.,Basic has four colors.
+16,pa,en,ਡਾਕਟਰ ਛੋਟਾ ਹੈ।,The doctor is short.,The computer is small.
+17,pa,en,ਡਾਕਟਰ ਨੂੰ ਫੋਨ ਪਸੰਦ ਹੈ।,The doctor likes a phone.,The computer likes the phone.
+18,pa,en,ਡਾਕਟਰ ਕੰਪਿਊਟਰ ਦੇਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The doctor wants to watch a computer.,The computer wants to see the computer.
+19,pa,en,ਡਾਕਟਰ ਹਸਪਤਾਲ ਜਾ ਰਿਹਾ ਹੈ।,The doctor is going to the hospital.,The computer is going to explore.
+20,pa,en,ਡਾਕਟਰ ਕੋਲ ਪੰਜ ਸਾਈਕਲ ਹਨ।,The doctor has five a bicycle.,The computer has five cycles.
+21,pa,en,ਕਿਸਾਨ ਮਜ਼ਬੂਤ ਹੈ।,The farmer is strong.,It’s a good thing to do.
+22,pa,en,ਕਿਸਾਨ ਨੂੰ ਪਾਣੀ ਪਸੰਦ ਹੈ।,The farmer likes water.,I love water.
+23,pa,en,ਕਿਸਾਨ ਚਾਹ ਪੀਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The farmer wants to drink tea.,I want to drink.
+24,pa,en,ਕਿਸਾਨ ਪਾਰਕ ਜਾ ਰਿਹਾ ਹੈ।,The farmer is going to the park.,The park is going.
+25,pa,en,ਕਿਸਾਨ ਕੋਲ ਛੇ ਕਲਮ ਹਨ।,The farmer has six a pen.,There are small clums.
+26,pa,en,ਬੱਚਾ ਕਮਜ਼ੋਰ ਹੈ।,The child is weak.,The child is a bedroom.
+27,pa,en,ਬੱਚਾ ਨੂੰ ਖਾਣਾ ਪਸੰਦ ਹੈ।,The child likes food.,The child loves eating.
+28,pa,en,ਬੱਚਾ ਦੁੱਧ ਸਿੱਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The child wants to learn milk.,The child wants to learn hardly.
+29,pa,en,ਬੱਚਾ ਸਟੇਸ਼ਨ ਜਾ ਰਿਹਾ ਹੈ।,The child is going to the station.,The child is going to the station.
+30,pa,en,ਬੱਚਾ ਕੋਲ ਸੱਤ ਬੈਗ ਹਨ।,The child has seven a bag.,The child has a seed bag.
+31,pa,en,ਔਰਤ ਸੋਹਣਾ ਹੈ।,The woman is beautiful.,Woman is a woman.
+32,pa,en,ਔਰਤ ਨੂੰ ਸੰਗੀਤ ਪਸੰਦ ਹੈ।,The woman likes music.,Women love music.
+33,pa,en,ਔਰਤ ਫਲ ਵੇਚਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The woman wants to sell fruit.,The woman wants to look up.
+34,pa,en,ਔਰਤ ਪਿੰਡ ਜਾ ਰਿਹਾ ਹੈ।,The woman is going to the village.,The woman is going to the village.
+35,pa,en,ਔਰਤ ਕੋਲ ਅੱਠ ਜੁੱਤੇ ਹਨ।,The woman has eight shoes.,The woman is in the forefront.
+36,pa,en,ਆਦਮੀ ਸਿਆਣਾ ਹੈ।,The man is intelligent.,I am the one.
+37,pa,en,ਆਦਮੀ ਨੂੰ ਫਿਲਮ ਪਸੰਦ ਹੈ।,The man likes a movie.,I love the movie.
+38,pa,en,ਆਦਮੀ ਫੁੱਲ ਬਣਾਉਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The man wants to make a flower.,I want to create a flower.
+39,pa,en,ਆਦਮੀ ਸ਼ਹਿਰ ਜਾ ਰਿਹਾ ਹੈ।,The man is going to the city.,The other city is going.
+40,pa,en,ਆਦਮੀ ਕੋਲ ਨੌਂ ਕੱਪੜੇ ਹਨ।,The man has nine clothes.,They have their clothes.
+41,pa,en,ਵਿਦਿਆਰਥੀ ਅਮੀਰ ਹੈ।,The student is rich.,Students are Amy.
+42,pa,en,ਵਿਦਿਆਰਥੀ ਨੂੰ ਕੰਪਿਊਟਰ ਪਸੰਦ ਹੈ।,The student likes a computer.,Students love computers.
+43,pa,en,ਵਿਦਿਆਰਥੀ ਸਾਈਕਲ ਵਰਤਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The student wants to use a bicycle.,Students want to use cycling.
+44,pa,en,ਵਿਦਿਆਰਥੀ ਦਫ਼ਤਰ ਜਾ ਰਿਹਾ ਹੈ।,The student is going to the office.,Student offices go.
+45,pa,en,ਵਿਦਿਆਰਥੀ ਕੋਲ ਦਸ ਪੈਸਾ ਹਨ।,The student has ten money.,Students have two packs.
+46,pa,en,ਡਰਾਈਵਰ ਗਰੀਬ ਹੈ।,The driver is poor.,The driver is grey.
+47,pa,en,ਡਰਾਈਵਰ ਨੂੰ ਚਾਹ ਪਸੰਦ ਹੈ।,The driver likes tea.,The driver loves it.
+48,pa,en,ਡਰਾਈਵਰ ਕਲਮ ਲੱਭਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The driver wants to find a pen.,The driver wants to find the clumps.
+49,pa,en,ਡਰਾਈਵਰ ਖੇਤ ਜਾ ਰਿਹਾ ਹੈ।,The driver is going to the field.,Driver is going to the area.
+50,pa,en,ਡਰਾਈਵਰ ਕੋਲ ਬਾਰਾਂ ਖੇਡ ਹਨ।,The driver has twelve a game.,Drivers have bar games.
+51,pa,en,ਰਸੋਈਆ ਬਹਾਦਰ ਹੈ।,The cook is brave.,Roosevelt is a landscape.
+52,pa,en,ਰਸੋਈਆ ਨੂੰ ਦੁੱਧ ਪਸੰਦ ਹੈ।,The cook likes milk.,Roosevelt is very pleased.
+53,pa,en,ਰਸੋਈਆ ਬੈਗ ਖਰੀਦਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The cook wants to buy a bag.,Rosie wants to buy bag.
+54,pa,en,ਰਸੋਈਆ ਬਜ਼ਾਰ ਜਾ ਰਿਹਾ ਹੈ।,The cook is going to the market.,Roosevelt is going.
+55,pa,en,ਰਸੋਈਆ ਕੋਲ ਦੋ ਕਿਤਾਬ ਹਨ।,The cook has two a book.,Rousseau has two books.
+56,pa,en,ਗਾਇਕ ਇਮਾਨਦਾਰ ਹੈ।,The singer is honest.,GIK is reliable.
+57,pa,en,ਗਾਇਕ ਨੂੰ ਫਲ ਪਸੰਦ ਹੈ।,The singer likes fruit.,Gick is pleased.
+58,pa,en,ਗਾਇਕ ਜੁੱਤੇ ਖਾਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The singer wants to eat shoes.,Gick wishes to have a holiday.
+59,pa,en,ਗਾਇਕ ਸਕੂਲ ਜਾ ਰਿਹਾ ਹੈ।,The singer is going to school.,Gike school is going.
+60,pa,en,ਗਾਇਕ ਕੋਲ ਤਿੰਨ ਕਾਰ ਹਨ।,The singer has three a car.,Gike has three cars.
+61,pa,en,ਲੇਖਕ ਦਿਆਲੂ ਹੈ।,The writer is kind.,The writer is striking.
+62,pa,en,ਲੇਖਕ ਨੂੰ ਫੁੱਲ ਪਸੰਦ ਹੈ।,The writer likes a flower.,The writer is pleased.
+63,pa,en,ਲੇਖਕ ਕੱਪੜੇ ਪੜ੍ਹਨਾ ਚਾਹੁੰਦਾ ਹੈ।,The writer wants to read clothes.,The author wants to read clothes.
+64,pa,en,ਲੇਖਕ ਮੰਦਰ ਜਾ ਰਿਹਾ ਹੈ।,The writer is going to the temple.,The article is going.
+65,pa,en,ਲੇਖਕ ਕੋਲ ਚਾਰ ਘਰ ਹਨ।,The writer has four a house.,The writer has four houses.
+66,pa,en,ਚਿੱਤਰਕਾਰ ਮਿਹਨਤੀ ਹੈ।,The painter is hardworking.,Photographer is associated.
+67,pa,en,ਚਿੱਤਰਕਾਰ ਨੂੰ ਸਾਈਕਲ ਪਸੰਦ ਹੈ।,The painter likes a bicycle.,The photographer likes cycling.
+68,pa,en,ਚਿੱਤਰਕਾਰ ਪੈਸਾ ਦੇਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The painter wants to watch money.,The photographer wants to see the Paisa.
+69,pa,en,ਚਿੱਤਰਕਾਰ ਹਸਪਤਾਲ ਜਾ ਰਿਹਾ ਹੈ।,The painter is going to the hospital.,Photographers are going to explore.
+70,pa,en,ਚਿੱਤਰਕਾਰ ਕੋਲ ਪੰਜ ਫੋਨ ਹਨ।,The painter has five a phone.,The photographer has five phones.
+71,pa,en,ਰਾਜਾ ਮਸ਼ਹੂਰ ਹੈ।,The king is famous.,The kingdom is pleasant.
+72,pa,en,ਰਾਜਾ ਨੂੰ ਕਲਮ ਪਸੰਦ ਹੈ।,The king likes a pen.,The kingdom loves clumps.
+73,pa,en,ਰਾਜਾ ਖੇਡ ਪੀਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The king wants to drink a game.,The king wants to play.
+74,pa,en,ਰਾਜਾ ਪਾਰਕ ਜਾ ਰਿਹਾ ਹੈ।,The king is going to the park.,The royal park is going.
+75,pa,en,ਰਾਜਾ ਕੋਲ ਛੇ ਪਾਣੀ ਹਨ।,The king has six water.,The river has low water.
+76,pa,en,ਰਾਣੀ ਜਵਾਨ ਹੈ।,The queen is young.,It’s a good thing to do.
+77,pa,en,ਰਾਣੀ ਨੂੰ ਬੈਗ ਪਸੰਦ ਹੈ।,The queen likes a bag.,I love the roof bag.
+78,pa,en,ਰਾਣੀ ਕਿਤਾਬ ਸਿੱਖਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The queen wants to learn a book.,Roth wants to learn the book.
+79,pa,en,ਰਾਣੀ ਸਟੇਸ਼ਨ ਜਾ ਰਿਹਾ ਹੈ।,The queen is going to the station.,The room station is going.
+80,pa,en,ਰਾਣੀ ਕੋਲ ਸੱਤ ਖਾਣਾ ਹਨ।,The queen has seven food.,The room has a seed.
+81,pa,en,ਦੋਸਤ ਬੁੱਢਾ ਹੈ।,The friend is old.,Friendship is good.
+82,pa,en,ਦੋਸਤ ਨੂੰ ਜੁੱਤੇ ਪਸੰਦ ਹੈ।,The friend likes shoes.,Friends are loving the night.
+83,pa,en,ਦੋਸਤ ਕਾਰ ਵੇਚਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The friend wants to sell a car.,Friendly car wants to check out.
+84,pa,en,ਦੋਸਤ ਪਿੰਡ ਜਾ ਰਿਹਾ ਹੈ।,The friend is going to the village.,Friendly neighborhood is going.
+85,pa,en,ਦੋਸਤ ਕੋਲ ਅੱਠ ਸੰਗੀਤ ਹਨ।,The friend has eight music.,Friends have a later music.
+86,pa,en,ਗੁਆਂਢੀ ਤੰਦਰੁਸਤ ਹੈ।,The neighbor is healthy.,It is very good for you.
+87,pa,en,ਗੁਆਂਢੀ ਨੂੰ ਕੱਪੜੇ ਪਸੰਦ ਹੈ।,The neighbor likes clothes.,I love the clothes.
+88,pa,en,ਗੁਆਂਢੀ ਘਰ ਬਣਾਉਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The neighbor wants to make a house.,I want to build a house.
+89,pa,en,ਗੁਆਂਢੀ ਸ਼ਹਿਰ ਜਾ ਰਿਹਾ ਹੈ।,The neighbor is going to the city.,The city is going.
+90,pa,en,ਗੁਆਂਢੀ ਕੋਲ ਨੌਂ ਫਿਲਮ ਹਨ।,The neighbor has nine a movie.,It is a movie. It is a movie.
+91,pa,en,ਮਜ਼ਦੂਰ ਰੁੱਝਿਆ ਹੈ।,The worker is busy.,It is a good thing to do.
+92,pa,en,ਮਜ਼ਦੂਰ ਨੂੰ ਪੈਸਾ ਪਸੰਦ ਹੈ।,The worker likes money.,She loves the puppy.
+93,pa,en,ਮਜ਼ਦੂਰ ਫੋਨ ਵਰਤਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The worker wants to use a phone.,I want to use the phone.
+94,pa,en,ਮਜ਼ਦੂਰ ਦਫ਼ਤਰ ਜਾ ਰਿਹਾ ਹੈ।,The worker is going to the office.,The secretary office is going.
+95,pa,en,ਮਜ਼ਦੂਰ ਕੋਲ ਦਸ ਕੰਪਿਊਟਰ ਹਨ।,The worker has ten a computer.,The computer has two computers.
+96,pa,en,ਸਿਪਾਹੀ ਸ਼ਾਂਤ ਹੈ।,The soldier is calm.,It’s a good thing to do.
+97,pa,en,ਸਿਪਾਹੀ ਨੂੰ ਖੇਡ ਪਸੰਦ ਹੈ।,The soldier likes a game.,I love the game.
+98,pa,en,ਸਿਪਾਹੀ ਪਾਣੀ ਲੱਭਣਾ ਚਾਹੁੰਦਾ ਹੈ।,The soldier wants to find water.,I want to find water.
+99,pa,en,ਸਿਪਾਹੀ ਖੇਤ ਜਾ ਰਿਹਾ ਹੈ।,The soldier is going to the field.,It is located in the city.
+100,pa,en,ਸਿਪਾਹੀ ਕੋਲ ਬਾਰਾਂ ਚਾਹ ਹਨ।,The soldier has twelve tea.,It is a bar. It is a bar.

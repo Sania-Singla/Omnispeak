@@ -1,0 +1,101 @@
+id,source_language,target_language,input,expected,output
+1,en,hi,The boy is happy.,लड़का खुश है।,लड़का खुश है।
+2,en,hi,The boy likes a book.,लड़का को किताब पसंद है।,लड़के को एक किताब पसंद है।
+3,en,hi,The boy wants to buy food.,लड़का खाना खरीदना चाहता है।,लड़का खाना खरीदना चाहता है।
+4,en,hi,The boy is going to the market.,लड़का बाजार जा रहा है।,लड़का बाजार जा रहा है।
+5,en,hi,The boy has two milk.,लड़का के पास दो दूध हैं।,लड़के के पास दो दूध हैं।
+6,en,hi,The girl is sad.,लड़की उदास है।,लड़की उदास है।
+7,en,hi,The girl likes a car.,लड़की को कार पसंद है।,लड़की को एक कार पसंद है।
+8,en,hi,The girl wants to eat music.,लड़की संगीत खाना चाहता है।,लड़की संगीत खाना चाहती है।
+9,en,hi,The girl is going to school.,लड़की स्कूल जा रहा है।,लड़की स्कूल जा रही है।
+10,en,hi,The girl has three fruit.,लड़की के पास तीन फल हैं।,लड़की के पास तीन फल हैं।
+11,en,hi,The teacher is tall.,अध्यापक लंबा है।,शिक्षक लंबा है।
+12,en,hi,The teacher likes a house.,अध्यापक को घर पसंद है।,शिक्षक को एक घर पसंद है।
+13,en,hi,The teacher wants to read a movie.,अध्यापक फिल्म पढ़ना चाहता है।,शिक्षक एक फिल्म पढ़ना चाहता है।
+14,en,hi,The teacher is going to the temple.,अध्यापक मंदिर जा रहा है।,शिक्षक मंदिर जा रहा है।
+15,en,hi,The teacher has four a flower.,अध्यापक के पास चार फूल हैं।,शिक्षक के पास चार फूल हैं।
+16,en,hi,The doctor is short.,डॉक्टर छोटा है।,डॉक्टर नाटा है।
+17,en,hi,The doctor likes a phone.,डॉक्टर को फोन पसंद है।,डॉक्टर को एक फोन पसंद है।
+18,en,hi,The doctor wants to watch a computer.,डॉक्टर कंप्यूटर देखना चाहता है।,डॉक्टर एक कंप्यूटर देखना चाहता है।
+19,en,hi,The doctor is going to the hospital.,डॉक्टर अस्पताल जा रहा है।,डॉक्टर अस्पताल जा रहा है।
+20,en,hi,The doctor has five a bicycle.,डॉक्टर के पास पांच साइकिल हैं।,डॉक्टर के पास पांच साइकिलें हैं।
+21,en,hi,The farmer is strong.,किसान मजबूत है।,किसान बलवान है।
+22,en,hi,The farmer likes water.,किसान को पानी पसंद है।,किसान को पानी पसंद है।
+23,en,hi,The farmer wants to drink tea.,किसान चाय पीना चाहता है।,किसान चाय पीना चाहता है।
+24,en,hi,The farmer is going to the park.,किसान पार्क जा रहा है।,किसान पार्क जा रहा है।
+25,en,hi,The farmer has six a pen.,किसान के पास छह कलम हैं।,किसान के पास छह कलम हैं।
+26,en,hi,The child is weak.,बच्चा कमजोर है।,बच्चा कमजोर है।
+27,en,hi,The child likes food.,बच्चा को खाना पसंद है।,बच्चे को खाना पसंद है।
+28,en,hi,The child wants to learn milk.,बच्चा दूध सीखना चाहता है।,बच्चा दूध सीखना चाहता है।
+29,en,hi,The child is going to the station.,बच्चा स्टेशन जा रहा है।,बच्चा स्टेशन जा रहा है।
+30,en,hi,The child has seven a bag.,बच्चा के पास सात बैग हैं।,बच्चे के पास सात बैग हैं।
+31,en,hi,The woman is beautiful.,महिला सुंदर है।,महिला सुंदर है।
+32,en,hi,The woman likes music.,महिला को संगीत पसंद है।,महिला को संगीत पसंद है।
+33,en,hi,The woman wants to sell fruit.,महिला फल बेचना चाहता है।,महिला फल बेचना चाहती है।
+34,en,hi,The woman is going to the village.,महिला गांव जा रहा है।,महिला गांव जा रही है।
+35,en,hi,The woman has eight shoes.,महिला के पास आठ जूते हैं।,महिला के पास आठ जूते हैं।
+36,en,hi,The man is intelligent.,आदमी बुद्धिमान है।,आदमी बुद्धिमान है।
+37,en,hi,The man likes a movie.,आदमी को फिल्म पसंद है।,आदमी को एक फिल्म पसंद है।
+38,en,hi,The man wants to make a flower.,आदमी फूल बनाना चाहता है।,आदमी एक फूल बनाना चाहता है।
+39,en,hi,The man is going to the city.,आदमी शहर जा रहा है।,आदमी शहर जा रहा है।
+40,en,hi,The man has nine clothes.,आदमी के पास नौ कपड़े हैं।,आदमी के पास नौ कपड़े हैं।
+41,en,hi,The student is rich.,छात्र अमीर है।,छात्र अमीर है।
+42,en,hi,The student likes a computer.,छात्र को कंप्यूटर पसंद है।,छात्र को एक कंप्यूटर पसंद है।
+43,en,hi,The student wants to use a bicycle.,छात्र साइकिल इस्तेमाल करना चाहता है।,छात्र साइकिल का उपयोग करना चाहता है।
+44,en,hi,The student is going to the office.,छात्र दफ्तर जा रहा है।,छात्र कार्यालय जा रहा है।
+45,en,hi,The student has ten money.,छात्र के पास दस पैसा हैं।,छात्र के पास दस पैसे हैं।
+46,en,hi,The driver is poor.,ड्राइवर गरीब है।,चालक गरीब है।
+47,en,hi,The driver likes tea.,ड्राइवर को चाय पसंद है।,चालक को चाय पसंद है।
+48,en,hi,The driver wants to find a pen.,ड्राइवर कलम ढूंढना चाहता है।,चालक एक कलम खोजना चाहता है।
+49,en,hi,The driver is going to the field.,ड्राइवर खेत जा रहा है।,चालक खेत जा रहा है।
+50,en,hi,The driver has twelve a game.,ड्राइवर के पास बारह खेल हैं।,चालक के पास बारह खेल हैं।
+51,en,hi,The cook is brave.,रसोइया बहादुर है।,रसोइया बहादुर है।
+52,en,hi,The cook likes milk.,रसोइया को दूध पसंद है।,रसोइये को दूध पसंद है।
+53,en,hi,The cook wants to buy a bag.,रसोइया बैग खरीदना चाहता है।,रसोइया एक बैग खरीदना चाहता है।
+54,en,hi,The cook is going to the market.,रसोइया बाजार जा रहा है।,रसोइया बाजार जा रहा है।
+55,en,hi,The cook has two a book.,रसोइया के पास दो किताब हैं।,रसोइये के पास दो किताबें हैं।
+56,en,hi,The singer is honest.,गायक ईमानदार है।,गायक ईमानदार है।
+57,en,hi,The singer likes fruit.,गायक को फल पसंद है।,गायक को फल पसंद है।
+58,en,hi,The singer wants to eat shoes.,गायक जूते खाना चाहता है।,गायक जूते खाना चाहता है।
+59,en,hi,The singer is going to school.,गायक स्कूल जा रहा है।,गायक स्कूल जा रहा है।
+60,en,hi,The singer has three a car.,गायक के पास तीन कार हैं।,गायक के पास तीन कारें हैं।
+61,en,hi,The writer is kind.,लेखक दयालु है।,लेखक दयालु है।
+62,en,hi,The writer likes a flower.,लेखक को फूल पसंद है।,लेखक को एक फूल पसंद है।
+63,en,hi,The writer wants to read clothes.,लेखक कपड़े पढ़ना चाहता है।,लेखक कपड़े पढ़ना चाहता है।
+64,en,hi,The writer is going to the temple.,लेखक मंदिर जा रहा है।,लेखक मंदिर जा रहा है।
+65,en,hi,The writer has four a house.,लेखक के पास चार घर हैं।,लेखक के पास चार घर हैं।
+66,en,hi,The painter is hardworking.,चित्रकार मेहनती है।,चित्रकार मेहनती है।
+67,en,hi,The painter likes a bicycle.,चित्रकार को साइकिल पसंद है।,चित्रकार को एक साइकिल पसंद है।
+68,en,hi,The painter wants to watch money.,चित्रकार पैसा देखना चाहता है।,चित्रकार पैसे देखना चाहता है।
+69,en,hi,The painter is going to the hospital.,चित्रकार अस्पताल जा रहा है।,चित्रकार अस्पताल जा रहा है।
+70,en,hi,The painter has five a phone.,चित्रकार के पास पांच फोन हैं।,चित्रकार के पास पांच फोन हैं।
+71,en,hi,The king is famous.,राजा प्रसिद्ध है।,राजा प्रसिद्ध है।
+72,en,hi,The king likes a pen.,राजा को कलम पसंद है।,राजा को एक कलम पसंद है।
+73,en,hi,The king wants to drink a game.,राजा खेल पीना चाहता है।,राजा खेल पीना चाहता है।
+74,en,hi,The king is going to the park.,राजा पार्क जा रहा है।,राजा पार्क जा रहा है।
+75,en,hi,The king has six water.,राजा के पास छह पानी हैं।,राजा के पास छह पानी हैं।
+76,en,hi,The queen is young.,रानी जवान है।,रानी युवा है।
+77,en,hi,The queen likes a bag.,रानी को बैग पसंद है।,रानी को एक बैग पसंद है।
+78,en,hi,The queen wants to learn a book.,रानी किताब सीखना चाहता है।,रानी एक किताब सीखना चाहती है।
+79,en,hi,The queen is going to the station.,रानी स्टेशन जा रहा है।,रानी स्टेशन जा रही है।
+80,en,hi,The queen has seven food.,रानी के पास सात खाना हैं।,रानी के पास सात भोजन हैं।
+81,en,hi,The friend is old.,दोस्त बूढ़ा है।,मित्र वृद्ध है।
+82,en,hi,The friend likes shoes.,दोस्त को जूते पसंद है।,दोस्त को जूते पसंद हैं।
+83,en,hi,The friend wants to sell a car.,दोस्त कार बेचना चाहता है।,दोस्त एक कार बेचना चाहता है।
+84,en,hi,The friend is going to the village.,दोस्त गांव जा रहा है।,दोस्त गांव जा रहा है।
+85,en,hi,The friend has eight music.,दोस्त के पास आठ संगीत हैं।,दोस्त के पास आठ संगीत हैं।
+86,en,hi,The neighbor is healthy.,पड़ोसी स्वस्थ है।,पड़ोसी स्वस्थ है।
+87,en,hi,The neighbor likes clothes.,पड़ोसी को कपड़े पसंद है।,पड़ोसी को कपड़े पसंद हैं।
+88,en,hi,The neighbor wants to make a house.,पड़ोसी घर बनाना चाहता है।,पड़ोसी एक घर बनाना चाहता है।
+89,en,hi,The neighbor is going to the city.,पड़ोसी शहर जा रहा है।,पड़ोसी शहर जा रहा है।
+90,en,hi,The neighbor has nine a movie.,पड़ोसी के पास नौ फिल्म हैं।,पड़ोसी के पास नौ फिल्में हैं।
+91,en,hi,The worker is busy.,मजदूर व्यस्त है।,मजदूर व्यस्त है।
+92,en,hi,The worker likes money.,मजदूर को पैसा पसंद है।,मजदूर को पैसा पसंद है।
+93,en,hi,The worker wants to use a phone.,मजदूर फोन इस्तेमाल करना चाहता है।,मजदूर फोन का उपयोग करना चाहता है।
+94,en,hi,The worker is going to the office.,मजदूर दफ्तर जा रहा है।,मजदूर दफ्तर जा रहा है।
+95,en,hi,The worker has ten a computer.,मजदूर के पास दस कंप्यूटर हैं।,मजदूर के पास दस कंप्यूटर हैं।
+96,en,hi,The soldier is calm.,सैनिक शांत है।,सैनिक शांत है।
+97,en,hi,The soldier likes a game.,सैनिक को खेल पसंद है।,सैनिक को एक खेल पसंद है।
+98,en,hi,The soldier wants to find water.,सैनिक पानी ढूंढना चाहता है।,सैनिक पानी ढूंढना चाहता है।
+99,en,hi,The soldier is going to the field.,सैनिक खेत जा रहा है।,सैनिक खेत जा रहा है।
+100,en,hi,The soldier has twelve tea.,सैनिक के पास बारह चाय हैं।,सैनिक के पास बारह चाय हैं।

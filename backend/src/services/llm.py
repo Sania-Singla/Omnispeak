@@ -3,6 +3,7 @@ from models.m2m100 import M2M100Translator
 from models.mbart import MBARTTranslator
 from models.marianMT import MarianTranslator
 from models.gemini_flash import GeminiTranslator
+from models.groq import GroqTranslator
 
 
 class TranslationService:
@@ -12,7 +13,6 @@ class TranslationService:
         self._translators = {}
 
     def _get_translator(self, provider: str):
-
         # Already loaded?
         if provider in self._translators:
             return self._translators[provider]
@@ -32,6 +32,9 @@ class TranslationService:
 
         elif provider == "gemini":
             translator = GeminiTranslator()
+            
+        elif provider == "groq":
+            translator = GroqTranslator()
 
         else:
             raise ValueError(f"Unsupported translation provider: {provider}")

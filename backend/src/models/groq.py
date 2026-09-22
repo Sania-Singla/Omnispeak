@@ -1,9 +1,7 @@
-from groq import Groq
-import os
 from config import GROQ_CLIENT
 
 
-class GeminiTranslator:
+class GroqTranslator:
     def __init__(self):
         self.client = GROQ_CLIENT
         self.model = "openai/gpt-oss-20b"
@@ -32,3 +30,26 @@ class GeminiTranslator:
             temperature=0.3,  # controls randomness of the output, lower is more deterministic & higher is more random/rephrased
         )
         return response.choices[0].message.content
+
+
+# from utils.csv import translate_files
+
+# translate_files(
+#     [
+#         "datasets/hi_to_en.csv",
+#         "datasets/en_to_hi.csv",
+#         "datasets/pa_to_en.csv",
+#         "datasets/pa_to_hi.csv",
+#         "datasets/hi_to_pa.csv",
+#         "datasets/en_to_pa.csv",
+#     ],
+#     [
+#         "results/groq/hi_to_en.csv",
+#         "results/groq/en_to_hi.csv",
+#         "results/groq/pa_to_en.csv",
+#         "results/groq/pa_to_hi.csv",
+#         "results/groq/hi_to_pa.csv",
+#         "results/groq/en_to_pa.csv",
+#     ],
+#     GroqTranslator().translate,
+# )

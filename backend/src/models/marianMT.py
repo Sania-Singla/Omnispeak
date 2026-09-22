@@ -47,3 +47,22 @@ class MarianTranslator:
         )
 
         return translated_text.strip()
+
+
+# from utils.csv import translate_files
+
+# translate_files(
+#     [
+#         "datasets/hi_to_en.csv",
+#         "datasets/en_to_hi.csv",
+#         "datasets/pa_to_en.csv",
+#     ],
+#     [
+#         "results/marianMT/hi_to_en.csv",
+#         "results/marianMT/en_to_hi.csv",
+#         "results/marianMT/pa_to_en.csv",
+#     ],
+#     MarianTranslator().translate,
+# )
+
+# translate_file("datasets/hi_to_en.csv", "results/m2m100/hi_to_en.csv", translate)

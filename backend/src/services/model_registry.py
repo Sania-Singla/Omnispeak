@@ -8,6 +8,14 @@ class ModelRegistry:
             ("hi", "pa"),
             ("pa", "hi"),
         },
+        "groq": {
+            ("en", "hi"),
+            ("hi", "en"),
+            ("en", "pa"),
+            ("pa", "en"),
+            ("hi", "pa"),
+            ("pa", "hi"),
+        },
         "m2m100": {
             ("en", "hi"),
             ("hi", "en"),
@@ -26,14 +34,6 @@ class ModelRegistry:
             ("pa", "en"),
         },
         "gemini": {
-            ("en", "hi"),
-            ("hi", "en"),
-            ("en", "pa"),
-            ("pa", "en"),
-            ("hi", "pa"),
-            ("pa", "hi"),
-        },
-        "indictrans2": {
             ("en", "hi"),
             ("hi", "en"),
             ("en", "pa"),

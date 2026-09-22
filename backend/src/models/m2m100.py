@@ -26,5 +26,3 @@ class M2M100Translator:
             0
         ].strip()
 
-
-# translate_file("datasets/hi_to_en.csv", "results/m2m100/hi_to_en.csv", translate)
