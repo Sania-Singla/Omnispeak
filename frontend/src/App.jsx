@@ -12,9 +12,9 @@ const MODEL_NAMES = {
     nllb: 'NLLB-200',
     m2m100: 'M2M100',
     mbart: 'mBART-50',
-    marian: 'MarianMT',
+    marianMT: 'MarianMT',
     gemini: 'Gemini',
-    indictrans2: 'IndicTrans2',
+    groq: 'Groq',
 };
 
 // Har model ka demonstration role evaluator ko explain karne ke liye
@@ -31,13 +31,17 @@ const MODEL_BADGES = {
         label: 'Bilingual High-Accuracy (67.6 BLEU)',
         color: 'bg-blue-100 text-blue-800',
     },
-    marian: {
+    marianMT: {
         label: 'Ultra-Fast / Low Footprint (~300MB)',
         color: 'bg-cyan-100 text-cyan-800',
     },
     m2m100: {
         label: 'Tokenization Sensitive (Legacy)',
         color: 'bg-amber-100 text-amber-800',
+    },
+    groq: {
+        label: 'Experimental / Research-Only',
+        color: 'bg-red-100 text-red-800',
     },
 };
 
@@ -225,9 +229,9 @@ export function App() {
             formData.append('audio', inputAudio.blob, 'recording.webm');
             formData.append('source_lang', sourceLanguage);
             formData.append('target_lang', targetLanguage);
-            formData.append('provider', selectedModel);
+            formData.append('model_name', selectedModel);
 
-            const response = await fetch(`${BACKEND_URL}/translate`, {
+            const response = await fetch(`${BACKEND_URL}/audio-translate`, {
                 method: 'POST',
                 body: formData,
             });
@@ -242,9 +246,9 @@ export function App() {
             setOutput({
                 transcription: data.transcription,
                 translation: data.translation,
-                audio: data.audio,
-                scores: data.scores || null,
-                provider: data.provider || selectedModel,
+                audio: data.audio_url,
+                scores: data.scores,
+                model_name: data.model_name || selectedModel,
             });
         } catch (err) {
             console.error(err);
@@ -270,33 +274,27 @@ export function App() {
     }
 
     return (
-        <main className="min-h-screen bg-gray-50 p-6 font-sans">
-            <div className="w-full max-w-2xl mx-auto space-y-6">
+        <main className="min-h-screen bg-gray-50 p-4 font-sans">
+            <div className="w-full max-w-3xl mx-auto space-y-6">
                 {/* Header */}
-                <header className="pt-4">
+                <header className="pt-4 text-center">
                     <h1 className="text-3xl font-bold text-gray-900">
                         OmniSpeak
                     </h1>
                     <p className="mt-1 text-sm text-gray-500">
-                        Modular Speech-to-Speech Translation across Indian
+                        Modular Speech-to-Speech Translation across Multiple
                         Languages
                     </p>
                 </header>
 
                 {/* Translation Settings & Benchmark Demonstration Section */}
                 <section className="bg-white border border-gray-200 rounded-xl p-6 space-y-5 shadow-xs">
-                    <div>
-                        <h2 className="text-base font-semibold text-gray-900">
-                            Translation Settings & Model Benchmark
-                        </h2>
-                        <p className="text-sm text-gray-500 mt-1">
-                            Select source/target languages and compare different
-                            translation architectures.
-                        </p>
-                    </div>
+                    <h2 className="text-center mb-6 text-lg font-semibold text-gray-900">
+                        Translation Settings
+                    </h2>
 
                     {/* Language Selection */}
-                    <div className="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-4 items-end">
+                    <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto_1fr] gap-4 items-end">
                         <div>
                             <label className="block text-sm font-medium text-gray-700 mb-2">
                                 I will speak in
@@ -322,7 +320,7 @@ export function App() {
                             type="button"
                             onClick={swapLanguages}
                             disabled={isRecording || isTranslating}
-                            className="px-3.5 py-2.5 border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-40 font-semibold"
+                            className="rotate-90 sm:rotate-0 px-3.5 py-3 font-bold"
                             title="Swap languages"
                         >
                             ⇄
@@ -351,21 +349,20 @@ export function App() {
 
                     {/* Evaluator Pair Benchmark Insight Card */}
                     {pairInsight && (
-                        <div className="bg-slate-50 border border-slate-200/90 rounded-lg p-3.5 space-y-1.5 text-xs">
-                            <div className="flex items-center justify-between">
-                                <span className="font-semibold text-slate-800 uppercase tracking-wide">
-                                    Pair Insight: {sourceLanguage.toUpperCase()}{' '}
-                                    → {targetLanguage.toUpperCase()}
-                                </span>
-                                <span className="text-[11px] text-slate-500 font-medium">
-                                    Top Benchmark: {pairInsight.best}
-                                </span>
-                            </div>
-                            <p className="text-slate-600 leading-relaxed">
-                                {pairInsight.notable}
+                        <div>
+                            <p className="block text-sm mb-2 font-medium text-gray-700">
+                                Top Recommendation
                             </p>
-                            <div className="text-[11px] text-indigo-700 font-medium pt-0.5">
-                                Reasoning: {pairInsight.evalNote}
+                            <div className="bg-slate-50 border border-slate-200/90 rounded-lg p-3.5 space-y-1.5 text-sm">
+                                <p className="w-full text-indigo-700 font-medium">
+                                    {pairInsight.best}
+                                </p>
+                                {/* <p className="text-slate-600 leading-relaxed">
+                                    {pairInsight.notable}
+                                </p>
+                                <p className="text-[11px] text-indigo-700 font-medium pt-0.5">
+                                    Reasoning: {pairInsight.evalNote}
+                                </p> */}
                             </div>
                         </div>
                     )}
@@ -373,9 +370,9 @@ export function App() {
                     {/* Model Dropdown with Specific Role Badges */}
                     <div>
                         <div className="flex items-center justify-between mb-2">
-                            <label className="block text-sm font-medium text-gray-700">
+                            <p className="block text-sm font-medium text-gray-700">
                                 Translation Engine
-                            </label>
+                            </p>
                             {selectedModel && MODEL_BADGES[selectedModel] && (
                                 <span
                                     className={`text-[11px] px-2 py-0.5 rounded-full font-medium ${MODEL_BADGES[selectedModel].color}`}
@@ -402,11 +399,10 @@ export function App() {
                                 <option value="">No models available</option>
                             ) : (
                                 availableModels.map((model) => {
-                                    const badge = MODEL_BADGES[model]?.label;
                                     return (
                                         <option key={model} value={model}>
-                                            {MODEL_NAMES[model] || model}{' '}
-                                            {badge ? `— [${badge}]` : ''}
+                                            {MODEL_NAMES[model]} -{' '}
+                                            {MODEL_BADGES[model].label}
                                         </option>
                                     );
                                 })
@@ -414,7 +410,7 @@ export function App() {
                         </select>
 
                         {/* Quick Selection Pills for Fast Evaluator Switching */}
-                        {!isLoadingModels && availableModels.length > 0 && (
+                        {/* {!isLoadingModels && availableModels.length > 0 && (
                             <div className="mt-3 flex flex-wrap gap-1.5 items-center">
                                 <span className="text-[11px] text-gray-400 mr-1 font-medium">
                                     Quick Select:
@@ -434,7 +430,7 @@ export function App() {
                                     </button>
                                 ))}
                             </div>
-                        )}
+                        )} */}
                     </div>
                 </section>
 
@@ -447,15 +443,9 @@ export function App() {
 
                 {/* Audio Recording Section */}
                 <section className="bg-white border border-gray-200 rounded-xl p-6 space-y-5 shadow-xs">
-                    <div>
-                        <h2 className="text-base font-semibold text-gray-900">
-                            Record Speech
-                        </h2>
-                        <p className="text-sm text-gray-500 mt-1">
-                            Record spoken input through microphone for
-                            sequential STT → NMT → TTS execution.
-                        </p>
-                    </div>
+                    <h2 className="text-base font-semibold text-gray-900">
+                        Record Speech
+                    </h2>
 
                     <div className="flex flex-wrap gap-3">
                         <button
@@ -488,15 +478,9 @@ export function App() {
                 {/* Review Input Audio */}
                 {inputAudio && (
                     <section className="bg-white border border-gray-200 rounded-xl p-6 space-y-5 shadow-xs">
-                        <div>
-                            <h2 className="text-base font-semibold text-gray-900">
-                                Your Spoken Input
-                            </h2>
-                            <p className="text-sm text-gray-500 mt-1">
-                                Listen to recorded input before sending it to
-                                the pipeline.
-                            </p>
-                        </div>
+                        <h2 className="text-base font-semibold text-gray-900">
+                            Your Spoken Input
+                        </h2>
 
                         <audio
                             src={inputAudio.url}
@@ -533,17 +517,9 @@ export function App() {
                     <section className="bg-white border border-gray-200 rounded-xl p-6 shadow-xs">
                         <div className="flex items-center gap-3">
                             <div className="w-5 h-5 border-2 border-gray-300 border-t-black rounded-full animate-spin" />
-                            <div>
-                                <p className="text-sm font-medium text-gray-900">
-                                    Processing Audio Pipeline...
-                                </p>
-                                <p className="text-xs text-gray-500 mt-0.5">
-                                    Running STT →{' '}
-                                    {MODEL_NAMES[selectedModel] ||
-                                        selectedModel}{' '}
-                                    → TTS synthesis
-                                </p>
-                            </div>
+                            <p className="text-sm font-medium text-gray-900">
+                                Processing Audio Pipeline...
+                            </p>
                         </div>
                     </section>
                 )}
@@ -573,15 +549,15 @@ export function App() {
 
                             <span className="px-3 py-1 bg-gray-100 rounded-full text-xs font-semibold text-gray-700">
                                 Engine:{' '}
-                                {MODEL_NAMES[output.provider] ||
-                                    output.provider}
+                                {MODEL_NAMES[output.model_name] ||
+                                    output.model_name}
                             </span>
                         </div>
 
                         {/* Speech-to-Text Transcription */}
                         <div>
                             <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
-                                1. STT Transcription (Source Speech)
+                                1. Transcription (Source Speech)
                             </p>
                             <div className="mt-2 bg-gray-50 border border-gray-200 rounded-lg p-4">
                                 <p className="text-gray-800 leading-relaxed">
@@ -593,7 +569,7 @@ export function App() {
                         {/* Machine Translation Output */}
                         <div>
                             <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
-                                2. Machine Translation Output
+                                2. Machine Translation
                             </p>
                             <div className="mt-2 bg-gray-50 border border-gray-200 rounded-lg p-4">
                                 <p className="text-lg font-medium text-gray-900 leading-relaxed">
@@ -606,7 +582,7 @@ export function App() {
                         {output.audio && (
                             <div>
                                 <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">
-                                    3. Synthesized Target Speech (TTS)
+                                    3. Target Speech
                                 </p>
                                 <audio
                                     src={output.audio}
@@ -619,14 +595,9 @@ export function App() {
                         {/* Evaluation Metrics Block */}
                         {output.scores && (
                             <div className="pt-3 border-t border-gray-100">
-                                <div className="flex items-center justify-between mb-3">
-                                    <p className="text-xs font-bold text-gray-600 uppercase tracking-wide">
-                                        Evaluation Benchmark Metrics
-                                    </p>
-                                    <span className="text-[11px] text-gray-400">
-                                        Automated reference validation
-                                    </span>
-                                </div>
+                                <p className="mb-3 text-xs font-bold text-gray-600 uppercase tracking-wide">
+                                    Evaluation Benchmark Metrics
+                                </p>
 
                                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                                     {/* BLEU */}
